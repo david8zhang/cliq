@@ -23,20 +23,20 @@
             android:layout_height="0dp"
             android:id="@+id/Logo"
             android:layout_gravity="center_horizontal"
-            android:src="@drawable/CliqIcon"
+            android:src="@drawable/cliqicon"
             android:layout_weight="3.5" />
 
         <ImageButton
             android:layout_width="wrap_content"
             android:layout_height="0dp"
             android:id="@+id/SignIn"
-            android:src="@drawable/Signin"
+            android:src="@drawable/signin"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true"
             android:layout_gravity="center_horizontal"
             android:cropToPadding="false"
             android:contextClickable="false"
-            android:background="transparent"
+            android:background="@null"
             android:layout_weight="1" />
 
         <Space
@@ -49,9 +49,9 @@
             android:layout_height="0dp"
             android:id="@+id/SignUp"
             android:layout_weight="1"
-            android:src="@drawable/Signup"
+            android:src="@drawable/signup"
             android:layout_gravity="center_horizontal"
-            android:background="transparent"
+            android:background="@null"
             android:scaleType="fitCenter"
             android:adjustViewBounds="true" />
 
