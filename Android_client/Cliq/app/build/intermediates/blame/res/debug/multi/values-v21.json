@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
+        "outputFile": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\values-v21\\values-v21.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 119
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -31,7 +31,7 @@
                     "endOffset": 420
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\values-v21\\styles.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\src\\main\\res\\values-v21\\styles.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
@@ -51,7 +51,7 @@
                     "endOffset": 511
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 4,
                         "startColumn": 4,
@@ -70,7 +70,7 @@
                     "endOffset": 614
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 5,
                         "startColumn": 4,
@@ -89,7 +89,7 @@
                     "endOffset": 717
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 6,
                         "startColumn": 4,
@@ -108,7 +108,7 @@
                     "endOffset": 822
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 7,
                         "startColumn": 4,
@@ -127,7 +127,7 @@
                     "endOffset": 929
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 8,
                         "startColumn": 4,
@@ -146,7 +146,7 @@
                     "endOffset": 1038
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 9,
                         "startColumn": 4,
@@ -165,7 +165,7 @@
                     "endOffset": 1147
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 10,
                         "startColumn": 4,
@@ -184,7 +184,7 @@
                     "endOffset": 1256
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 11,
                         "startColumn": 4,
@@ -203,7 +203,7 @@
                     "endOffset": 1365
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 12,
                         "startColumn": 4,
@@ -222,7 +222,7 @@
                     "endOffset": 1474
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
@@ -241,7 +241,7 @@
                     "endOffset": 1581
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
@@ -260,7 +260,7 @@
                     "endOffset": 1684
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 15,
                         "startColumn": 4,
@@ -279,7 +279,7 @@
                     "endOffset": 1803
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 16,
                         "startColumn": 4,
@@ -299,7 +299,7 @@
                     "endOffset": 1958
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 19,
                         "startColumn": 4,
@@ -320,7 +320,7 @@
                     "endOffset": 2113
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 21,
                         "startColumn": 4,
@@ -340,7 +340,7 @@
                     "endOffset": 2218
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 25,
                         "startColumn": 4,
@@ -359,7 +359,7 @@
                     "endOffset": 2339
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 26,
                         "startColumn": 4,
@@ -378,7 +378,7 @@
                     "endOffset": 2440
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 27,
                         "startColumn": 4,
@@ -398,7 +398,7 @@
                     "endOffset": 2587
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 30,
                         "startColumn": 4,
@@ -419,7 +419,7 @@
                     "endOffset": 2728
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 32,
                         "startColumn": 4,
@@ -439,7 +439,7 @@
                     "endOffset": 2831
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 36,
                         "startColumn": 4,
@@ -458,7 +458,7 @@
                     "endOffset": 2950
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 37,
                         "startColumn": 4,
@@ -477,7 +477,7 @@
                     "endOffset": 3057
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 38,
                         "startColumn": 4,
@@ -496,7 +496,7 @@
                     "endOffset": 3160
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 39,
                         "startColumn": 4,
@@ -516,7 +516,7 @@
                     "endOffset": 3307
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 42,
                         "startColumn": 4,
@@ -537,7 +537,7 @@
                     "endOffset": 3462
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 44,
                         "startColumn": 4,
@@ -558,7 +558,7 @@
                     "endOffset": 3633
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 46,
                         "startColumn": 4,
@@ -579,7 +579,7 @@
                     "endOffset": 3782
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 48,
                         "startColumn": 4,
@@ -600,7 +600,7 @@
                     "endOffset": 3947
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 50,
                         "startColumn": 4,
@@ -621,7 +621,7 @@
                     "endOffset": 4104
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 52,
                         "startColumn": 4,
@@ -642,7 +642,7 @@
                     "endOffset": 4255
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 54,
                         "startColumn": 4,
@@ -662,7 +662,7 @@
                     "endOffset": 4374
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 58,
                         "startColumn": 4,
@@ -682,7 +682,7 @@
                     "endOffset": 4523
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 61,
                         "startColumn": 4,
@@ -703,7 +703,7 @@
                     "endOffset": 4672
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 63,
                         "startColumn": 4,
@@ -723,7 +723,7 @@
                     "endOffset": 4784
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 67,
                         "startColumn": 4,
@@ -742,7 +742,7 @@
                     "endOffset": 4931
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 70,
                         "startColumn": 4,
@@ -762,7 +762,7 @@
                     "endOffset": 5084
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 71,
                         "startColumn": 4,
@@ -783,7 +783,7 @@
                     "endOffset": 5231
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 73,
                         "startColumn": 4,
@@ -803,7 +803,7 @@
                     "endOffset": 5306
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 77,
                         "startColumn": 4,
@@ -822,7 +822,7 @@
                     "endOffset": 5395
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 78,
                         "startColumn": 4,
@@ -841,7 +841,7 @@
                     "endOffset": 5482
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 79,
                         "startColumn": 4,
@@ -860,7 +860,7 @@
                     "endOffset": 5583
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 80,
                         "startColumn": 4,
@@ -880,7 +880,7 @@
                     "endOffset": 8989
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 81,
                         "startColumn": 4,
@@ -901,7 +901,7 @@
                     "endOffset": 9175
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 129,
                         "startColumn": 4,
@@ -922,7 +922,7 @@
                     "endOffset": 12593
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 132,
                         "startColumn": 4,
@@ -943,7 +943,7 @@
                     "endOffset": 12791
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 180,
                         "startColumn": 4,
@@ -964,7 +964,7 @@
                     "endOffset": 12914
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 185,
                         "startColumn": 4,
@@ -985,7 +985,7 @@
                     "endOffset": 13037
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 187,
                         "startColumn": 4,
@@ -1006,7 +1006,7 @@
                     "endOffset": 13150
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 189,
                         "startColumn": 4,
@@ -1027,7 +1027,7 @@
                     "endOffset": 13333
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 191,
                         "startColumn": 4,
@@ -1048,7 +1048,7 @@
                     "endOffset": 13464
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 194,
                         "startColumn": 4,
@@ -1068,7 +1068,7 @@
                     "endOffset": 13581
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 196,
                         "startColumn": 4,
@@ -1087,7 +1087,7 @@
                     "endOffset": 13670
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 197,
                         "startColumn": 4,
@@ -1106,7 +1106,7 @@
                     "endOffset": 13781
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 198,
                         "startColumn": 4,
@@ -1125,7 +1125,7 @@
                     "endOffset": 13908
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 199,
                         "startColumn": 4,
@@ -1144,7 +1144,7 @@
                     "endOffset": 14009
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 200,
                         "startColumn": 4,
@@ -1163,7 +1163,7 @@
                     "endOffset": 14104
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 201,
                         "startColumn": 4,
@@ -1182,7 +1182,7 @@
                     "endOffset": 14227
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 202,
                         "startColumn": 4,
@@ -1201,7 +1201,7 @@
                     "endOffset": 14356
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 203,
                         "startColumn": 4,
@@ -1220,7 +1220,7 @@
                     "endOffset": 14473
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 204,
                         "startColumn": 4,
@@ -1239,7 +1239,7 @@
                     "endOffset": 14566
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 205,
                         "startColumn": 4,
@@ -1259,7 +1259,7 @@
                     "endOffset": 14701
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 206,
                         "startColumn": 4,
@@ -1280,7 +1280,7 @@
                     "endOffset": 14844
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 208,
                         "startColumn": 4,
@@ -1301,7 +1301,7 @@
                     "endOffset": 14979
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 210,
                         "startColumn": 4,
@@ -1322,7 +1322,7 @@
                     "endOffset": 15098
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 212,
                         "startColumn": 4,
@@ -1343,7 +1343,7 @@
                     "endOffset": 15299
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 214,
                         "startColumn": 4,
@@ -1364,7 +1364,7 @@
                     "endOffset": 15418
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 218,
                         "startColumn": 4,
@@ -1384,7 +1384,7 @@
                     "endOffset": 15511
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 220,
                         "startColumn": 4,
@@ -1403,7 +1403,7 @@
                     "endOffset": 15622
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 221,
                         "startColumn": 4,
@@ -1422,7 +1422,7 @@
                     "endOffset": 15678
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 222,
                         "startColumn": 4,
@@ -1442,7 +1442,7 @@
                     "endOffset": 15785
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 223,
                         "startColumn": 4,
@@ -1463,7 +1463,7 @@
                     "endOffset": 15980
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 225,
                         "startColumn": 4,
@@ -1484,7 +1484,7 @@
                     "endOffset": 16091
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 229,
                         "startColumn": 4,
@@ -1505,7 +1505,7 @@
                     "endOffset": 16224
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 231,
                         "startColumn": 4,
@@ -1525,7 +1525,7 @@
                     "endOffset": 16319
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 233,
                         "startColumn": 4,
@@ -1544,7 +1544,7 @@
                     "endOffset": 16410
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 234,
                         "startColumn": 4,
@@ -1563,7 +1563,7 @@
                     "endOffset": 16523
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 235,
                         "startColumn": 4,
@@ -1582,7 +1582,7 @@
                     "endOffset": 16640
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 236,
                         "startColumn": 4,
@@ -1602,7 +1602,7 @@
                     "endOffset": 16779
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 237,
                         "startColumn": 4,
@@ -1623,7 +1623,7 @@
                     "endOffset": 17132
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 241,
                         "startColumn": 4,
@@ -1644,7 +1644,7 @@
                     "endOffset": 17497
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 248,
                         "startColumn": 4,
@@ -1665,7 +1665,7 @@
                     "endOffset": 18177
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 255,
                         "startColumn": 4,
@@ -1685,7 +1685,7 @@
                     "endOffset": 18234
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 265,
                         "startColumn": 4,
@@ -1704,7 +1704,7 @@
                     "endOffset": 18292
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
+                    "file": "C:\\Users\\Karl_2\\AndroidStudioProjects\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-v21\\values-v21.xml",
                     "position": {
                         "startLine": 266,
                         "startColumn": 4,
