@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="c31e21b53ff2f74664e498248d01453a32e32d48">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.android.support-support-v4-23.0.1_43e7dbf29cce2b91c035bbe3bfb4a01b5e2e14ed.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appindexing\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e35fae1b377c23aa5fd2d309a190c2d0f73d54ec">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appindexing-7.3.0_d42aeb6925c9bb03dade1cfb95dc06a30a898baf.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.android.support\design\23.0.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="8a5238e4bdcd6568b82db669d41817de670586b8">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.android.support-design-23.0.0_eeb3094aaefa5c2ee1d720a7ff9586977fa0cf07.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-appstate\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0180d031a7b54dabb93b4af3869468b55dc938bd">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-appstate-7.3.0_af7eee63a8f050a9666eb50993b4a4c9ccd75200.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.android.support\appcompat-v7\23.0.1\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d86429b0f0b3f3cafbeb78dda1b9d89119ccb05d">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.android.support-appcompat-v7-23.0.1_9e34bd1a951a562dff43f8d1edb75948133b92e0.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-games\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3b4ff5c39dace8f3b4ab4cab8191785547a0815f">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-games-7.3.0_64d3add2245071b5bdc35af250cba78aac5e7b7b.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-nearby\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="5ea948d825957be6c4358c48422bee60eef2d487">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-nearby-7.3.0_3b96818dbb0175fb31ad0a8a6b329b030b57e369.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-fitness\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="4f4fe3c23776540625f3c2844152a7510fddf9f1">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-fitness-7.3.0_a5eb41300c9b488d8de396e31791b7fd93cf40bc.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-panorama\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="565a01f90f1529f73362707c4c185d0623a68782">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-panorama-7.3.0_e8f78fa01ca697d0922cf6b17e03e0bcc12e2db6.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-drive\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="a0ce76dfaccbfbd6c551ed2174280aaabe60fe47">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-drive-7.3.0_f54d64bc9292c98c4b2d7ac8ddf6e8b830913d85.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-cast\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5b9f5b0aa8dee788beb63d23832cb29ce771343">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-cast-7.3.0_8e45fb6173f70ad59369ed06f48416d885228675.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wallet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="6046e5cdaf799120b7c56a5a061d80e8854c4d34">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wallet-7.3.0_62820be05f13bbabf85623ea336c5d410e949b24.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-base\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="f2f7ec211ce4d244ee97a57523eeb4526dc3cf8a">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-base-7.3.0_8d783e48013dbe0c74ca2564f25ff6c846b50d06.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-wearable\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="e5bf453b070c1e39297986144960e45afa0fdfad">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-wearable-7.3.0_ad676e5b33a639ba291417a68d04f103c54a15c1.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-safetynet\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="0708ef60917bf94913fe9ef972a655b99462dca7">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-safetynet-7.3.0_7efadc01d74d5e198fb6cdbb459d73ba4d45555e.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-ads\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="3988694bf9d8186ff97ad5cdfa4ed88b5010fe08">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-ads-7.3.0_1cb2b563bc62cdc99920287e166eaee48edb74c9.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-plus\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="59652857a825fff0de62166fca1bc9553cc01abb">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-plus-7.3.0_49942d9b2d287e29903225b31884427e76d25f84.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\AppData\Local\Android\sdk\extras\android\m2repository\com\android\support\support-annotations\23.0.1\support-annotations-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="1fce89a6428c51467090d7f424e4c9c3dbd55f7e">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\support-annotations-23.0.1_98f25348342b7b726370b97e1dd168090ebb604b.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-maps\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="fe3e0c6de7cceed888b277487238b6af9a1cc299">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-maps-7.3.0_e76c340ac9cb2c9c5c8af16d7701d3994dc9e942.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-gcm\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="7215ac1f2fca947b9415a6ee2a1bf991364aab24">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-gcm-7.3.0_3ba89253852c4749539e3727d5e58bbe6ea8d4e9.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-analytics\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="9c9dea9e85aceb09d95df5e6f7bc8a43fc286068">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-analytics-7.3.0_cbb4c6d3e7188acc43026beff9e75406d0dbc83d.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-location\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b2c07cdb814fe988ad05f7b4d767a841514a5991">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-location-7.3.0_09228c9c6fcb5df707a735c3cbd4dbf128faec38.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\libs\internal_impl-23.0.1.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="aa92916125166649d8ad4ba3940c3dd7515596d3">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\internal_impl-23.0.1_bc354071e5cbaecb545e52c5b5ea141fff0c24cf.jar" />
+    </item>
+    <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.google.android.gms\play-services-identity\7.3.0\jars\classes.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="b48d5c51a9a9e329005106b4667f54948de4d4d8">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\com.google.android.gms-play-services-identity-7.3.0_ba02439dde1a1acb067fdd687d1eac06d4757fc2.jar" />
+    </item>
+
+</items>
