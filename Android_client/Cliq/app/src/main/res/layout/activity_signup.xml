@@ -13,111 +13,89 @@
         android:orientation="vertical"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:weightSum="7.75">
+        android:weightSum="9">
+
+        <Space
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight=".5" />
 
         <ImageView
             android:layout_width="fill_parent"
             android:layout_height="0dp"
             android:id="@+id/Icon"
-            android:layout_weight="1.75"
-            android:src="@drawable/CliqIcon" />
+            android:layout_weight="2.5"
+            android:src="@drawable/cliqicon" />
 
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight="7"
-            android:weightSum="6">
-
-            <Space
-                android:layout_width="fill_parent"
-                android:layout_height="0dp"
-                android:layout_weight=".5" />
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="USER NAME"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/textView"
-                android:textSize="32dp"
-                android:layout_weight="0" />
+            android:layout_weight="6"
+            android:weightSum="4.75">
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/username_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1">
+                android:layout_weight=".75">
 
                 <EditText
                     android:id="@+id/username"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
+                    android:hint="USERNAME"
                     android:layout_gravity="center_horizontal"
                     android:singleLine="true"/>
 
             </android.support.design.widget.TextInputLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="PASSWORD"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/textView"
-                android:textSize="32dp"
-                android:layout_weight="0" />
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/pass_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1">
+                android:layout_weight=".75">
 
                 <EditText
                     android:id="@+id/password"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
+                    android:hint="PASSWORD"
                     android:layout_gravity="center_horizontal"
                     android:singleLine="true"/>
 
             </android.support.design.widget.TextInputLayout>
-
-            <TextView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:text="EMAIL ADDRESS"
-                android:layout_gravity="center_horizontal"
-                android:id="@+id/textView"
-                android:textSize="32dp"
-                android:layout_weight="0" />
 
             <android.support.design.widget.TextInputLayout
                 android:id="@+id/email_layout"
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
-                android:layout_weight="1">
+                android:layout_weight=".75">
 
                 <EditText
                     android:id="@+id/email"
+                    android:hint="EMAIL ADDRESS"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
-
                     android:layout_gravity="center_horizontal"
                     android:singleLine="true"/>
 
             </android.support.design.widget.TextInputLayout>
 
-            <ImageButton
+            <Space
                 android:layout_width="fill_parent"
+                android:layout_height="0dp"
+                android:layout_weight=".75" />
+
+            <ImageButton
+                android:layout_width="wrap_content"
                 android:layout_height="0dp"
                 android:id="@+id/confirm"
                 android:layout_weight="1"
-                android:src="@drawable/Signup"
+                android:src="@drawable/signup"
                 android:scaleType="fitCenter"
                 android:layout_gravity="center_horizontal"
-                android:background="transparent"
+                android:background="@null"
                 android:adjustViewBounds="true" />
         </LinearLayout>
 

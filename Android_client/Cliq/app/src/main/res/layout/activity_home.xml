@@ -52,7 +52,7 @@
                 android:scaleType="fitCenter"
                 android:layout_weight=".5"
                 android:src="@drawable/search"
-                android:background="transparent"
+                android:background="@null"
                 android:adjustViewBounds="true" />
 
             <Space
@@ -66,8 +66,8 @@
                 android:id="@+id/Settings"
                 android:scaleType="fitCenter"
                 android:layout_weight=".5"
-                android:src="@drawable/Settings"
-                android:background="transparent"
+                android:src="@drawable/settings"
+                android:background="@null"
                 android:adjustViewBounds="true" />
 
             <Space
@@ -93,8 +93,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/MainIcon"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Main"
+                android:background="@null"
+                android:src="@drawable/main"
                 android:layout_weight="1" />
 
             <TextView
@@ -102,7 +102,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:id="@+id/name"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:layout_weight="1.5"
                 android:text="MAIN CLIQ" />
 
@@ -117,8 +117,8 @@
                 android:id="@+id/Requests"
                 android:layout_weight=".75"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Requests" />
+                android:background="@null"
+                android:src="@drawable/requests" />
         </LinearLayout>
 
         <Space
@@ -147,7 +147,7 @@
                 android:text="PARTIES"
                 android:id="@+id/textView2"
                 android:gravity="center_horizontal"
-                android:textSize="18dp"
+                android:textSize="18sp"
                 android:layout_weight="1" />
 
             <View
@@ -173,9 +173,9 @@
                 android:id="@+id/Party1"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:background="transparent"
+                android:background="@null"
                 android:adjustViewBounds="true"
-                android:src="@drawable/Party1" />
+                android:src="@drawable/party1" />
 
             <ImageButton
                 android:layout_width="0dp"
@@ -183,7 +183,7 @@
                 android:id="@+id/party3"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:background="transparent"
+                android:background="@null"
                 android:adjustViewBounds="true"
                 android:src="@drawable/party3" />
 
@@ -193,7 +193,7 @@
                 android:id="@+id/party2"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:background="transparent"
+                android:background="@null"
                 android:adjustViewBounds="true"
                 android:src="@drawable/party2" />
 
@@ -203,9 +203,9 @@
                 android:id="@+id/addParty"
                 android:layout_weight="1"
                 android:scaleType="fitCenter"
-                android:background="transparent"
+                android:background="@null"
                 android:adjustViewBounds="true"
-                android:src="@drawable/Add" />
+                android:src="@drawable/add" />
 
         </LinearLayout>
 
@@ -268,7 +268,7 @@
                 android:text="FRIENDS"
                 android:id="@+id/textView2"
                 android:gravity="center_horizontal"
-                android:textSize="19dp"
+                android:textSize="19sp"
                 android:layout_weight="1" />
 
             <View
@@ -297,8 +297,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/MainIcon"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Friend1"
+                android:background="@null"
+                android:src="@drawable/friend1"
                 android:layout_weight="1" />
 
             <TextView
@@ -306,7 +306,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:id="@+id/name"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:layout_weight="1.5"
                 android:text="ESRI" />
 
@@ -321,8 +321,8 @@
                 android:id="@+id/Find"
                 android:layout_weight=".3"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Find" />
+                android:background="@null"
+                android:src="@drawable/find" />
         </LinearLayout>
 
         <Space
@@ -347,7 +347,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/MainIcon"
                 android:scaleType="fitCenter"
-                android:background="transparent"
+                android:background="@null"
                 android:src="@drawable/friend3"
                 android:layout_weight="1" />
 
@@ -356,7 +356,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:id="@+id/name"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:layout_weight="1.5"
                 android:text="SINCH" />
 
@@ -389,8 +389,8 @@
                 android:layout_height="match_parent"
                 android:id="@+id/MainIcon"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Main"
+                android:background="@null"
+                android:src="@drawable/main"
                 android:layout_weight="1" />
 
             <TextView
@@ -398,7 +398,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:id="@+id/name"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:layout_weight="1.5"
                 android:text="HAKKER" />
 
@@ -413,8 +413,8 @@
                 android:id="@+id/Find"
                 android:layout_weight=".3"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Find" />
+                android:background="@null"
+                android:src="@drawable/find" />
         </LinearLayout>
 
         <Space
@@ -439,7 +439,7 @@
                 android:layout_height="match_parent"
                 android:id="@+id/MainIcon"
                 android:scaleType="fitCenter"
-                android:background="transparent"
+                android:background="@null"
                 android:src="@drawable/friend2"
                 android:layout_weight="1" />
 
@@ -448,7 +448,7 @@
                 android:layout_height="match_parent"
                 android:gravity="center"
                 android:id="@+id/name"
-                android:textSize="26dp"
+                android:textSize="26sp"
                 android:layout_weight="1.5"
                 android:text="MOM" />
 
@@ -463,8 +463,8 @@
                 android:id="@+id/Find"
                 android:layout_weight=".3"
                 android:scaleType="fitCenter"
-                android:background="transparent"
-                android:src="@drawable/Find" />
+                android:background="@null"
+                android:src="@drawable/find" />
         </LinearLayout>
 
     </LinearLayout>

@@ -151,7 +151,7 @@
             android:id="@+id/c_email"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:background="transparent"
+            android:background="@null"
             android:adjustViewBounds="true"
             android:src="@drawable/email" />
 
@@ -161,9 +161,9 @@
             android:id="@+id/c_password"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:background="transparent"
+            android:background="@null"
             android:adjustViewBounds="true"
-            android:src="@drawable/Password" />
+            android:src="@drawable/password" />
 
         <ImageButton
             android:layout_width="0dp"
@@ -171,9 +171,9 @@
             android:id="@+id/c_icon"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:background="transparent"
+            android:background="@null"
             android:adjustViewBounds="true"
-            android:src="@drawable/UserCount" />
+            android:src="@drawable/usercount" />
 
         <ImageButton
             android:layout_width="0dp"
@@ -181,9 +181,9 @@
             android:id="@+id/signout"
             android:layout_weight="1"
             android:scaleType="fitCenter"
-            android:background="transparent"
+            android:background="@null"
             android:adjustViewBounds="true"
-            android:src="@drawable/Signout" />
+            android:src="@drawable/signout" />
 
     </LinearLayout>
 
