@@ -1,472 +1,59 @@
 <?xml version="1.0" encoding="utf-8"?>
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
-
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    
     <LinearLayout
         android:orientation="vertical"
         android:layout_width="match_parent"
         android:layout_height="match_parent"
-        android:weightSum="6">
-
-        <Space
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight=".1" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:weightSum="4"
-            android:layout_weight=".75">
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".2" />
-
-            <android.support.design.widget.TextInputLayout
-                android:id="@+id/search_layout"
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight="2.5">
-
-                <EditText
-                    android:id="@+id/search"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:layout_gravity="center_horizontal"
-                    android:singleLine="true"/>
-
-            </android.support.design.widget.TextInputLayout>
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".05" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/SearchIcon"
-                android:scaleType="fitCenter"
-                android:layout_weight=".5"
-                android:src="@drawable/search"
-                android:background="@null"
-                android:adjustViewBounds="true" />
-
-            <Space
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_weight=".1" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/Settings"
-                android:scaleType="fitCenter"
-                android:layout_weight=".5"
-                android:src="@drawable/settings"
-                android:background="@null"
-                android:adjustViewBounds="true" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:layout_weight=".15" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".65"
-            android:weightSum="4">
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".2" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/MainIcon"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/main"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:id="@+id/name"
-                android:textSize="26sp"
-                android:layout_weight="1.5"
-                android:text="MAIN CLIQ" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".25" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/Requests"
-                android:layout_weight=".75"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/requests" />
-        </LinearLayout>
-
-        <Space
-            android:layout_width="fill_parent"
-            android:layout_height="wrap_content"
-            android:layout_weight=".1" />
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".3"
-            android:weightSum="5">
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center"
-                android:background="@android:color/darker_gray"
-                android:layout_weight="2"
-                android:orientation="vertical" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="PARTIES"
-                android:id="@+id/textView2"
-                android:gravity="center_horizontal"
-                android:textSize="18sp"
-                android:layout_weight="1" />
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center"
-                android:background="@android:color/darker_gray"
-                android:layout_weight="2"
-                android:orientation="vertical" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".75"
-            android:weightSum="4">
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:id="@+id/Party1"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:adjustViewBounds="true"
-                android:src="@drawable/party1" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:id="@+id/party3"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:adjustViewBounds="true"
-                android:src="@drawable/party3" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:id="@+id/party2"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:adjustViewBounds="true"
-                android:src="@drawable/party2" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="fill_parent"
-                android:id="@+id/addParty"
-                android:layout_weight="1"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:adjustViewBounds="true"
-                android:src="@drawable/add" />
-
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".3"
-            android:weightSum="4">
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="LAUNCH"
-                android:gravity="center_horizontal"
-                android:id="@+id/textView3"
-                android:layout_weight="1" />
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="SQUAD"
-                android:gravity="center_horizontal"
-                android:id="@+id/textView3"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="ROOMIES"
-                android:gravity="center_horizontal"
-                android:id="@+id/textView3"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="Add"
-                android:gravity="center_horizontal"
-                android:id="@+id/textView3"
-                android:layout_weight="1" />
-        </LinearLayout>
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".3"
-            android:weightSum="5">
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center"
-                android:background="@android:color/darker_gray"
-                android:layout_weight="2"
-                android:orientation="vertical" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:text="FRIENDS"
-                android:id="@+id/textView2"
-                android:gravity="center_horizontal"
-                android:textSize="19sp"
-                android:layout_weight="1" />
-
-            <View
-                android:layout_width="0dp"
-                android:layout_height="1dp"
-                android:layout_gravity="center"
-                android:background="@android:color/darker_gray"
-                android:layout_weight="2"
-                android:orientation="vertical" />
-        </LinearLayout>
-
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".6"
-            android:weightSum="4">
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".2" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/MainIcon"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/friend1"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:id="@+id/name"
-                android:textSize="26sp"
-                android:layout_weight="1.5"
-                android:text="ESRI" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".75" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/Find"
-                android:layout_weight=".3"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/find" />
-        </LinearLayout>
+        android:weightSum="6"
+        android:id="@+id/logo"
+        android:measureWithLargestChild="false">
 
         <Space
             android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight=".1" />
+            android:layout_weight=".5" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
+        <ImageView
+            android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight=".6"
-            android:weightSum="4">
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".2" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/MainIcon"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/friend3"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:id="@+id/name"
-                android:textSize="26sp"
-                android:layout_weight="1.5"
-                android:text="SINCH" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".25" />
-
-        </LinearLayout>
+            android:id="@+id/imageView"
+            android:layout_weight="2"
+            android:src="@drawable/main"/>
 
         <Space
             android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight=".1" />
+            android:layout_weight=".5" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
-            android:layout_height="0dp"
-            android:layout_weight=".6"
-            android:weightSum="4">
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".2" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/MainIcon"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/main"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:id="@+id/name"
-                android:textSize="26sp"
-                android:layout_weight="1.5"
-                android:text="HAKKER" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".75" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/Find"
-                android:layout_weight=".3"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/find" />
-        </LinearLayout>
+        <ImageButton
+        android:layout_width="wrap_content"
+        android:layout_height="0dp"
+        android:layout_gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:background="@null"
+        android:id="@+id/findbutton"
+        android:layout_weight="1"
+        android:src="@drawable/findbutton"
+        android:adjustViewBounds="true" />
 
         <Space
             android:layout_width="fill_parent"
             android:layout_height="0dp"
-            android:layout_weight=".1" />
+            android:layout_weight=".2" />
 
-        <LinearLayout
-            android:orientation="horizontal"
-            android:layout_width="match_parent"
+        <ImageButton
+            android:layout_width="wrap_content"
             android:layout_height="0dp"
-            android:layout_weight=".6"
-            android:weightSum="4">
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".2" />
-
-            <ImageView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:id="@+id/MainIcon"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/friend2"
-                android:layout_weight="1" />
-
-            <TextView
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:gravity="center"
-                android:id="@+id/name"
-                android:textSize="26sp"
-                android:layout_weight="1.5"
-                android:text="MOM" />
-
-            <Space
-                android:layout_width="0dp"
-                android:layout_height="match_parent"
-                android:layout_weight=".75" />
-
-            <ImageButton
-                android:layout_width="0dp"
-                android:layout_height="wrap_content"
-                android:id="@+id/Find"
-                android:layout_weight=".3"
-                android:scaleType="fitCenter"
-                android:background="@null"
-                android:src="@drawable/find" />
-        </LinearLayout>
+            android:layout_gravity="center_horizontal"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:id="@+id/homebutton"
+            android:layout_weight="1"
+            android:src="@drawable/homebutton"
+            android:adjustViewBounds="true" />
 
     </LinearLayout>
-
 </RelativeLayout>

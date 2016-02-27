@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
-<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    android:layout_width="match_parent" android:layout_height="match_parent">
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
 
     <LinearLayout
         android:orientation="vertical"
@@ -18,7 +19,7 @@
             android:layout_height="0dp"
             android:gravity="center_horizontal"
             android:textSize="36dp"
-            android:text="CREATE PARTY"
+            android:text="ADD FRIENDS"
             android:id="@+id/title"
             android:layout_weight="1.5"
             android:textIsSelectable="true" />
@@ -42,7 +43,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="PARTY NAME"
-                android:id="@+id/partyname"
+                android:id="@+id/textView2"
                 android:gravity="center_horizontal"
                 android:textSize="18dp"
                 android:layout_weight="2" />
@@ -91,7 +92,7 @@
                 android:layout_width="0dp"
                 android:layout_height="wrap_content"
                 android:text="FEATURES"
-                android:id="@+id/feaetures"
+                android:id="@+id/textView2"
                 android:gravity="center_horizontal"
                 android:textSize="18dp"
                 android:layout_weight="2" />
@@ -116,7 +117,7 @@
                 android:layout_width="0dp"
                 android:layout_height="match_parent"
                 android:gravity="center"
-                android:id="@+id/partytext"
+                android:id="@+id/name"
                 android:textSize="26dp"
                 android:layout_weight="3"
                 android:text="SELECT PARTY ICON" />
@@ -171,5 +172,5 @@
                 android:background="@null"
                 android:src="@drawable/main" />
         </LinearLayout>
+    </LinearLayout>
 </LinearLayout>
-</RelativeLayout>
