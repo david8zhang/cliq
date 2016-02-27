@@ -1,9 +1,0 @@
-{
-  "firebase": "cliq-api",
-  "public": ".",
-  "ignore": [
-    "firebase.json",
-    "**/.*",
-    "**/node_modules/**"
-  ]
-}
