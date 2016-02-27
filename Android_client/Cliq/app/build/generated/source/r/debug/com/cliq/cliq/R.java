@@ -2733,7 +2733,7 @@ containing a value of this type.
         public static final int abc_search_dropdown_item_icons_2line=0x7f040015;
         public static final int abc_search_view=0x7f040016;
         public static final int abc_select_dialog_material=0x7f040017;
-        public static final int activity_dash =0x7f040018;
+        public static final int activity_dash=0x7f040018;
         public static final int activity_main=0x7f040019;
         public static final int activity_partycreate=0x7f04001a;
         public static final int activity_settings=0x7f04001b;

@@ -80,10 +80,6 @@
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\layout\\abc_screen_simple_overlay_action_mode.xml"
     },
     {
-        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_home.xml",
-        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\layout\\activity_home.xml"
-    },
-    {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_partycreate.xml",
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\layout\\activity_partycreate.xml"
     },
@@ -198,6 +194,10 @@
     {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\content_main.xml",
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\layout\\content_main.xml"
+    },
+    {
+        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\activity_dash.xml",
+        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\layout\\activity_dash.xml"
     },
     {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\layout\\abc_action_bar_view_list_nav_layout.xml",

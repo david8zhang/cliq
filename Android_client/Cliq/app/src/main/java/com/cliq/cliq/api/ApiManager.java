@@ -32,7 +32,8 @@ public class ApiManager {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String s) {
-                        PreferenceManager.getDefaultSharedPreferences(context).edit().putString("user_id", s);
+                        PreferenceManager.getDefaultSharedPreferences(context).edit().putString("user_id", s).commit();
+                        PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -65,7 +66,8 @@ public class ApiManager {
                 new Response.Listener<String>() {
                     @Override
                     public void onResponse(String s) {
-                        PreferenceManager.getDefaultSharedPreferences(context).edit().putString("user_id", s);
+                        PreferenceManager.getDefaultSharedPreferences(context).edit().putString("user_id", s).commit();
+                        PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
                     }
                 }, new Response.ErrorListener() {
             @Override
