@@ -90,7 +90,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:id="@+id/confirm"
+                android:id="@+id/register"
                 android:layout_weight="1"
                 android:src="@drawable/signup"
                 android:scaleType="fitCenter"

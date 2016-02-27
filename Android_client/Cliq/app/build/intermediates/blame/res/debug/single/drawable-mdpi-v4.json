@@ -76,12 +76,12 @@
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\drawable-mdpi\\common_signin_btn_icon_disabled_light.9.png"
     },
     {
-        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
-        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\drawable-mdpi\\common_signin_btn_icon_disabled_focus_dark.9.png"
-    },
-    {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\abc_list_focused_holo.9.png",
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable-mdpi\\abc_list_focused_holo.9.png"
+    },
+    {
+        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_icon_disabled_focus_dark.9.png",
+        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\drawable-mdpi\\common_signin_btn_icon_disabled_focus_dark.9.png"
     },
     {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_signin_btn_text_normal_dark.9.png",

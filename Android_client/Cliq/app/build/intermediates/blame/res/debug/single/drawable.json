@@ -84,12 +84,12 @@
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\drawable\\abc_list_selector_background_transition_holo_dark.xml"
     },
     {
-        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\away.png",
-        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\drawable\\away.png"
-    },
-    {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\design_fab_background.xml",
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\design\\23.0.0\\res\\drawable\\design_fab_background.xml"
+    },
+    {
+        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\away.png",
+        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\drawable\\away.png"
     },
     {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable\\usercount.png",

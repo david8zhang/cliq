@@ -2,6 +2,13 @@
 <items version="2" >
 
     <item
+        jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\libs\volley.jar"
+        jumboMode="false"
+        revision="23.0.1"
+        sha1="d4aaa36e04ee71a83444f8367c97a46fda662d2c">
+        <dex dex="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\pre-dexed\debug\volley_1f1b5c3183acc6ee2d6da8eb2da8e21db8c75653.jar" />
+    </item>
+    <item
         jar="C:\Users\david_000\Desktop\Projects\Cliq\cliq\Android_client\Cliq\app\build\intermediates\exploded-aar\com.android.support\support-v4\23.0.1\jars\classes.jar"
         jumboMode="false"
         revision="23.0.1"
