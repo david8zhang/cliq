@@ -13,11 +13,17 @@ router.route('/users/login')
 router.route('/users/index')
 	.get(userController.getUser);
 
+router.route('/users/add_friend')
+	.post(userController.addFriend);
+
 router.route('/users/update_user')
 	.post(userController.updateUser);
 
 router.route('/users/update_pass')
 	.post(userController.updatePass);
+
+router.route('/users/update_email')
+	.post(userController.updateEmail);
 
 router.route('/party/create')
 	.post(partyController.createParty);
