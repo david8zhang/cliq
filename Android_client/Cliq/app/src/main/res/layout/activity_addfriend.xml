@@ -39,7 +39,7 @@
                         android:id="@+id/textView" android:layout_gravity="center_horizontal"
                         android:textColor="@color/colorPrimary" android:textSize="20sp"/>
                     <EditText
-                        android:id="@+id/loginName"
+                        android:id="@+id/serach_bar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
@@ -63,7 +63,7 @@
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:id="@+id/confirm"
+                android:id="@+id/find_friend"
                 android:layout_weight="1"
                 android:src="@drawable/findbutton"
                 android:scaleType="fitCenter"

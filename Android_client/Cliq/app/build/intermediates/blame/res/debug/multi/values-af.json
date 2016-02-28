@@ -330,17 +330,17 @@
                     "startLine": 19,
                     "startColumn": 4,
                     "startOffset": 1867,
-                    "endColumn": 170,
-                    "endOffset": 2033
+                    "endColumn": 194,
+                    "endOffset": 2057
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 6,
+                        "startLine": 5,
                         "startColumn": 4,
-                        "startOffset": 668,
-                        "endColumn": 170,
-                        "endOffset": 834
+                        "startOffset": 481,
+                        "endColumn": 198,
+                        "endOffset": 675
                     }
                 }
             },
@@ -348,18 +348,18 @@
                 "to": {
                     "startLine": 20,
                     "startColumn": 4,
-                    "startOffset": 2038,
-                    "endColumn": 166,
-                    "endOffset": 2200
+                    "startOffset": 2062,
+                    "endColumn": 184,
+                    "endOffset": 2242
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 19,
+                        "startLine": 18,
                         "startColumn": 4,
-                        "startOffset": 2657,
-                        "endColumn": 166,
-                        "endOffset": 2819
+                        "startOffset": 2585,
+                        "endColumn": 188,
+                        "endOffset": 2769
                     }
                 }
             },
@@ -367,18 +367,18 @@
                 "to": {
                     "startLine": 21,
                     "startColumn": 4,
-                    "startOffset": 2205,
+                    "startOffset": 2247,
                     "endColumn": 113,
-                    "endOffset": 2314
+                    "endOffset": 2356
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 17,
+                        "startLine": 16,
                         "startColumn": 4,
-                        "startOffset": 2373,
+                        "startOffset": 2279,
                         "endColumn": 113,
-                        "endOffset": 2482
+                        "endOffset": 2388
                     }
                 }
             },
@@ -386,18 +386,18 @@
                 "to": {
                     "startLine": 22,
                     "startColumn": 4,
-                    "startOffset": 2319,
-                    "endColumn": 128,
-                    "endOffset": 2443
+                    "startOffset": 2361,
+                    "endColumn": 258,
+                    "endOffset": 2615
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 15,
+                        "startLine": 30,
                         "startColumn": 4,
-                        "startOffset": 2115,
-                        "endColumn": 128,
-                        "endOffset": 2239
+                        "startOffset": 4466,
+                        "endColumn": 262,
+                        "endOffset": 4724
                     }
                 }
             },
@@ -405,18 +405,18 @@
                 "to": {
                     "startLine": 23,
                     "startColumn": 4,
-                    "startOffset": 2448,
-                    "endColumn": 169,
-                    "endOffset": 2613
+                    "startOffset": 2620,
+                    "endColumn": 128,
+                    "endOffset": 2744
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
                         "startLine": 14,
                         "startColumn": 4,
-                        "startOffset": 1945,
-                        "endColumn": 169,
-                        "endOffset": 2110
+                        "startOffset": 2021,
+                        "endColumn": 128,
+                        "endOffset": 2145
                     }
                 }
             },
@@ -424,18 +424,18 @@
                 "to": {
                     "startLine": 24,
                     "startColumn": 4,
-                    "startOffset": 2618,
-                    "endColumn": 126,
-                    "endOffset": 2740
+                    "startOffset": 2749,
+                    "endColumn": 187,
+                    "endOffset": 2932
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
                         "startLine": 13,
                         "startColumn": 4,
-                        "startOffset": 1818,
-                        "endColumn": 126,
-                        "endOffset": 1940
+                        "startOffset": 1829,
+                        "endColumn": 191,
+                        "endOffset": 2016
                     }
                 }
             },
@@ -443,18 +443,18 @@
                 "to": {
                     "startLine": 25,
                     "startColumn": 4,
-                    "startOffset": 2745,
-                    "endColumn": 168,
-                    "endOffset": 2909
+                    "startOffset": 2937,
+                    "endColumn": 126,
+                    "endOffset": 3059
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 8,
+                        "startLine": 12,
                         "startColumn": 4,
-                        "startOffset": 1007,
-                        "endColumn": 172,
-                        "endOffset": 1175
+                        "startOffset": 1702,
+                        "endColumn": 126,
+                        "endOffset": 1824
                     }
                 }
             },
@@ -462,18 +462,18 @@
                 "to": {
                     "startLine": 26,
                     "startColumn": 4,
-                    "startOffset": 2914,
-                    "endColumn": 124,
-                    "endOffset": 3034
+                    "startOffset": 3064,
+                    "endColumn": 168,
+                    "endOffset": 3228
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 12,
+                        "startLine": 7,
                         "startColumn": 4,
-                        "startOffset": 1693,
-                        "endColumn": 124,
-                        "endOffset": 1813
+                        "startOffset": 848,
+                        "endColumn": 172,
+                        "endOffset": 1016
                     }
                 }
             },
@@ -481,18 +481,18 @@
                 "to": {
                     "startLine": 27,
                     "startColumn": 4,
-                    "startOffset": 3039,
-                    "endColumn": 193,
-                    "endOffset": 3228
+                    "startOffset": 3233,
+                    "endColumn": 124,
+                    "endOffset": 3353
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 10,
+                        "startLine": 11,
                         "startColumn": 4,
-                        "startOffset": 1302,
-                        "endColumn": 193,
-                        "endOffset": 1491
+                        "startOffset": 1577,
+                        "endColumn": 124,
+                        "endOffset": 1697
                     }
                 }
             },
@@ -500,18 +500,18 @@
                 "to": {
                     "startLine": 28,
                     "startColumn": 4,
-                    "startOffset": 3233,
-                    "endColumn": 196,
-                    "endOffset": 3425
+                    "startOffset": 3358,
+                    "endColumn": 211,
+                    "endOffset": 3565
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 11,
+                        "startLine": 9,
                         "startColumn": 4,
-                        "startOffset": 1496,
-                        "endColumn": 196,
-                        "endOffset": 1688
+                        "startOffset": 1143,
+                        "endColumn": 215,
+                        "endOffset": 1354
                     }
                 }
             },
@@ -519,18 +519,18 @@
                 "to": {
                     "startLine": 29,
                     "startColumn": 4,
-                    "startOffset": 3430,
-                    "endColumn": 121,
-                    "endOffset": 3547
+                    "startOffset": 3570,
+                    "endColumn": 213,
+                    "endOffset": 3779
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 9,
+                        "startLine": 10,
                         "startColumn": 4,
-                        "startOffset": 1180,
-                        "endColumn": 121,
-                        "endOffset": 1297
+                        "startOffset": 1359,
+                        "endColumn": 217,
+                        "endOffset": 1572
                     }
                 }
             },
@@ -538,18 +538,18 @@
                 "to": {
                     "startLine": 30,
                     "startColumn": 4,
-                    "startOffset": 3552,
-                    "endColumn": 206,
-                    "endOffset": 3754
+                    "startOffset": 3784,
+                    "endColumn": 121,
+                    "endOffset": 3901
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 23,
+                        "startLine": 8,
                         "startColumn": 4,
-                        "startOffset": 3240,
-                        "endColumn": 206,
-                        "endOffset": 3442
+                        "startOffset": 1021,
+                        "endColumn": 121,
+                        "endOffset": 1138
                     }
                 }
             },
@@ -557,18 +557,18 @@
                 "to": {
                     "startLine": 31,
                     "startColumn": 4,
-                    "startOffset": 3759,
-                    "endColumn": 126,
-                    "endOffset": 3881
+                    "startOffset": 3906,
+                    "endColumn": 206,
+                    "endOffset": 4108
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 22,
+                        "startLine": 24,
                         "startColumn": 4,
-                        "startOffset": 3113,
-                        "endColumn": 126,
-                        "endOffset": 3235
+                        "startOffset": 3527,
+                        "endColumn": 206,
+                        "endOffset": 3729
                     }
                 }
             },
@@ -576,18 +576,18 @@
                 "to": {
                     "startLine": 32,
                     "startColumn": 4,
-                    "startOffset": 3886,
-                    "endColumn": 167,
-                    "endOffset": 4049
+                    "startOffset": 4113,
+                    "endColumn": 126,
+                    "endOffset": 4235
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 7,
+                        "startLine": 23,
                         "startColumn": 4,
-                        "startOffset": 839,
-                        "endColumn": 167,
-                        "endOffset": 1002
+                        "startOffset": 3400,
+                        "endColumn": 126,
+                        "endOffset": 3522
                     }
                 }
             },
@@ -595,18 +595,18 @@
                 "to": {
                     "startLine": 33,
                     "startColumn": 4,
-                    "startOffset": 4054,
-                    "endColumn": 170,
-                    "endOffset": 4220
+                    "startOffset": 4240,
+                    "endColumn": 167,
+                    "endOffset": 4403
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 21,
+                        "startLine": 6,
                         "startColumn": 4,
-                        "startOffset": 2942,
-                        "endColumn": 170,
-                        "endOffset": 3108
+                        "startOffset": 680,
+                        "endColumn": 167,
+                        "endOffset": 843
                     }
                 }
             },
@@ -614,18 +614,18 @@
                 "to": {
                     "startLine": 34,
                     "startColumn": 4,
-                    "startOffset": 4225,
-                    "endColumn": 117,
-                    "endOffset": 4338
+                    "startOffset": 4408,
+                    "endColumn": 170,
+                    "endOffset": 4574
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 20,
+                        "startLine": 22,
                         "startColumn": 4,
-                        "startOffset": 2824,
-                        "endColumn": 117,
-                        "endOffset": 2937
+                        "startOffset": 3229,
+                        "endColumn": 170,
+                        "endOffset": 3395
                     }
                 }
             },
@@ -633,18 +633,18 @@
                 "to": {
                     "startLine": 35,
                     "startColumn": 4,
-                    "startOffset": 4343,
-                    "endColumn": 186,
-                    "endOffset": 4525
+                    "startOffset": 4579,
+                    "endColumn": 117,
+                    "endOffset": 4692
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 4,
+                        "startLine": 21,
                         "startColumn": 4,
-                        "startOffset": 302,
-                        "endColumn": 186,
-                        "endOffset": 484
+                        "startOffset": 3111,
+                        "endColumn": 117,
+                        "endOffset": 3224
                     }
                 }
             },
@@ -652,18 +652,18 @@
                 "to": {
                     "startLine": 36,
                     "startColumn": 4,
-                    "startOffset": 4530,
+                    "startOffset": 4697,
                     "endColumn": 178,
-                    "endOffset": 4704
+                    "endOffset": 4871
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 5,
+                        "startLine": 4,
                         "startColumn": 4,
-                        "startOffset": 489,
+                        "startOffset": 302,
                         "endColumn": 178,
-                        "endOffset": 663
+                        "endOffset": 476
                     }
                 }
             },
@@ -671,12 +671,12 @@
                 "to": {
                     "startLine": 37,
                     "startColumn": 4,
-                    "startOffset": 4709,
+                    "startOffset": 4876,
                     "endColumn": 131,
-                    "endOffset": 4836
+                    "endOffset": 5003
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
                         "startLine": 3,
                         "startColumn": 4,
@@ -690,18 +690,18 @@
                 "to": {
                     "startLine": 38,
                     "startColumn": 4,
-                    "startOffset": 4841,
+                    "startOffset": 5008,
                     "endColumn": 183,
-                    "endOffset": 5020
+                    "endOffset": 5187
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 33,
+                        "startLine": 32,
                         "startColumn": 4,
-                        "startOffset": 4726,
+                        "startOffset": 4856,
                         "endColumn": 183,
-                        "endOffset": 4905
+                        "endOffset": 5035
                     }
                 }
             },
@@ -709,18 +709,18 @@
                 "to": {
                     "startLine": 39,
                     "startColumn": 4,
-                    "startOffset": 5025,
+                    "startOffset": 5192,
                     "endColumn": 126,
-                    "endOffset": 5147
+                    "endOffset": 5314
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 32,
+                        "startLine": 31,
                         "startColumn": 4,
-                        "startOffset": 4599,
+                        "startOffset": 4729,
                         "endColumn": 126,
-                        "endOffset": 4721
+                        "endOffset": 4851
                     }
                 }
             },
@@ -728,18 +728,18 @@
                 "to": {
                     "startLine": 40,
                     "startColumn": 4,
-                    "startOffset": 5152,
+                    "startOffset": 5319,
                     "endColumn": 143,
-                    "endOffset": 5291
+                    "endOffset": 5458
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 24,
+                        "startLine": 25,
                         "startColumn": 4,
-                        "startOffset": 3447,
+                        "startOffset": 3734,
                         "endColumn": 143,
-                        "endOffset": 3586
+                        "endOffset": 3873
                     }
                 }
             },
@@ -747,18 +747,18 @@
                 "to": {
                     "startLine": 41,
                     "startColumn": 4,
-                    "startOffset": 5296,
-                    "endColumn": 244,
-                    "endOffset": 5536
+                    "startOffset": 5463,
+                    "endColumn": 254,
+                    "endOffset": 5713
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 26,
+                        "startLine": 27,
                         "startColumn": 4,
-                        "startOffset": 3715,
-                        "endColumn": 244,
-                        "endOffset": 3955
+                        "startOffset": 4002,
+                        "endColumn": 258,
+                        "endOffset": 4256
                     }
                 }
             },
@@ -766,18 +766,18 @@
                 "to": {
                     "startLine": 42,
                     "startColumn": 4,
-                    "startOffset": 5541,
+                    "startOffset": 5718,
                     "endColumn": 123,
-                    "endOffset": 5660
+                    "endOffset": 5837
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 25,
+                        "startLine": 26,
                         "startColumn": 4,
-                        "startOffset": 3591,
+                        "startOffset": 3878,
                         "endColumn": 123,
-                        "endOffset": 3710
+                        "endOffset": 3997
                     }
                 }
             },
@@ -785,18 +785,18 @@
                 "to": {
                     "startLine": 43,
                     "startColumn": 4,
-                    "startOffset": 5665,
+                    "startOffset": 5842,
                     "endColumn": 109,
-                    "endOffset": 5770
+                    "endOffset": 5947
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 27,
+                        "startLine": 28,
                         "startColumn": 4,
-                        "startOffset": 3960,
+                        "startOffset": 4261,
                         "endColumn": 109,
-                        "endOffset": 4065
+                        "endOffset": 4366
                     }
                 }
             },
@@ -804,18 +804,18 @@
                 "to": {
                     "startLine": 44,
                     "startColumn": 4,
-                    "startOffset": 5775,
-                    "endColumn": 169,
-                    "endOffset": 5940
+                    "startOffset": 5952,
+                    "endColumn": 187,
+                    "endOffset": 6135
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 18,
+                        "startLine": 17,
                         "startColumn": 4,
-                        "startOffset": 2487,
-                        "endColumn": 169,
-                        "endOffset": 2652
+                        "startOffset": 2393,
+                        "endColumn": 191,
+                        "endOffset": 2580
                     }
                 }
             },
@@ -823,18 +823,18 @@
                 "to": {
                     "startLine": 45,
                     "startColumn": 4,
-                    "startOffset": 5945,
+                    "startOffset": 6140,
                     "endColumn": 128,
-                    "endOffset": 6069
+                    "endOffset": 6264
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 16,
+                        "startLine": 15,
                         "startColumn": 4,
-                        "startOffset": 2244,
+                        "startOffset": 2150,
                         "endColumn": 128,
-                        "endOffset": 2368
+                        "endOffset": 2274
                     }
                 }
             },
@@ -842,18 +842,18 @@
                 "to": {
                     "startLine": 46,
                     "startColumn": 4,
-                    "startOffset": 6074,
-                    "endColumn": 94,
-                    "endOffset": 6164
+                    "startOffset": 6269,
+                    "endColumn": 197,
+                    "endOffset": 6462
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 30,
+                        "startLine": 20,
                         "startColumn": 4,
-                        "startOffset": 4272,
-                        "endColumn": 94,
-                        "endOffset": 4362
+                        "startOffset": 2909,
+                        "endColumn": 201,
+                        "endOffset": 3106
                     }
                 }
             },
@@ -861,18 +861,18 @@
                 "to": {
                     "startLine": 47,
                     "startColumn": 4,
-                    "startOffset": 6169,
-                    "endColumn": 92,
-                    "endOffset": 6257
+                    "startOffset": 6467,
+                    "endColumn": 134,
+                    "endOffset": 6597
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
-                        "startLine": 28,
+                        "startLine": 19,
                         "startColumn": 4,
-                        "startOffset": 4070,
-                        "endColumn": 92,
-                        "endOffset": 4158
+                        "startOffset": 2774,
+                        "endColumn": 134,
+                        "endOffset": 2904
                     }
                 }
             },
@@ -880,18 +880,18 @@
                 "to": {
                     "startLine": 48,
                     "startColumn": 4,
-                    "startOffset": 6262,
-                    "endColumn": 108,
-                    "endOffset": 6366
+                    "startOffset": 6602,
+                    "endColumn": 94,
+                    "endOffset": 6692
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\values-af\\common_strings.xml",
                     "position": {
                         "startLine": 29,
                         "startColumn": 4,
-                        "startOffset": 4163,
-                        "endColumn": 108,
-                        "endOffset": 4267
+                        "startOffset": 4371,
+                        "endColumn": 94,
+                        "endOffset": 4461
                     }
                 }
             },
@@ -899,18 +899,18 @@
                 "to": {
                     "startLine": 49,
                     "startColumn": 4,
-                    "startOffset": 6371,
-                    "endColumn": 231,
-                    "endOffset": 6598
+                    "startOffset": 6697,
+                    "endColumn": 92,
+                    "endOffset": 6785
                 },
                 "from": {
-                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\7.3.0\\res\\values-af\\common_strings.xml",
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\values-af\\base_strings.xml",
                     "position": {
-                        "startLine": 31,
+                        "startLine": 3,
                         "startColumn": 4,
-                        "startOffset": 4367,
-                        "endColumn": 231,
-                        "endOffset": 4594
+                        "startOffset": 170,
+                        "endColumn": 92,
+                        "endOffset": 258
                     }
                 }
             },
@@ -918,9 +918,142 @@
                 "to": {
                     "startLine": 50,
                     "startColumn": 4,
-                    "startOffset": 6603,
+                    "startOffset": 6790,
+                    "endColumn": 108,
+                    "endOffset": 6894
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\values-af\\base_strings.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 263,
+                        "endColumn": 108,
+                        "endOffset": 367
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 51,
+                    "startColumn": 4,
+                    "startOffset": 6899,
+                    "endColumn": 113,
+                    "endOffset": 7008
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 4,
+                        "startColumn": 4,
+                        "startOffset": 293,
+                        "endColumn": 113,
+                        "endOffset": 402
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 52,
+                    "startColumn": 4,
+                    "startOffset": 7013,
+                    "endColumn": 115,
+                    "endOffset": 7124
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 5,
+                        "startColumn": 4,
+                        "startOffset": 407,
+                        "endColumn": 115,
+                        "endOffset": 518
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 53,
+                    "startColumn": 4,
+                    "startOffset": 7129,
+                    "endColumn": 105,
+                    "endOffset": 7230
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 6,
+                        "startColumn": 4,
+                        "startOffset": 523,
+                        "endColumn": 105,
+                        "endOffset": 624
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 54,
+                    "startColumn": 4,
+                    "startOffset": 7235,
+                    "endColumn": 103,
+                    "endOffset": 7334
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 7,
+                        "startColumn": 4,
+                        "startOffset": 629,
+                        "endColumn": 103,
+                        "endOffset": 728
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 55,
+                    "startColumn": 4,
+                    "startOffset": 7339,
+                    "endColumn": 86,
+                    "endOffset": 7421
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 8,
+                        "startColumn": 4,
+                        "startOffset": 733,
+                        "endColumn": 86,
+                        "endOffset": 815
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 56,
+                    "startColumn": 4,
+                    "startOffset": 7426,
+                    "endColumn": 95,
+                    "endOffset": 7517
+                },
+                "from": {
+                    "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\mediarouter-v7\\22.2.0\\res\\values-af\\values-af.xml",
+                    "position": {
+                        "startLine": 9,
+                        "startColumn": 4,
+                        "startOffset": 820,
+                        "endColumn": 95,
+                        "endOffset": 911
+                    }
+                }
+            },
+            {
+                "to": {
+                    "startLine": 57,
+                    "startColumn": 4,
+                    "startOffset": 7522,
                     "endColumn": 100,
-                    "endOffset": 6699
+                    "endOffset": 7618
                 },
                 "from": {
                     "file": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.android.support\\appcompat-v7\\23.0.1\\res\\values-af\\values-af.xml",
