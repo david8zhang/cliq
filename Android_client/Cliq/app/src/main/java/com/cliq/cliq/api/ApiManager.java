@@ -1,15 +1,20 @@
 package com.cliq.cliq.api;
 
 import android.content.Context;
+import android.content.Intent;
+import android.content.SharedPreferences;
 import android.preference.PreferenceManager;
 
 import com.android.volley.Request;
 import com.android.volley.Response;
 import com.android.volley.VolleyError;
+import com.android.volley.toolbox.JsonObjectRequest;
 import com.android.volley.toolbox.StringRequest;
 import com.cliq.cliq.controller.AppController;
 import com.cliq.cliq.controller.DataModelController;
 import com.cliq.cliq.model.Constants;
+import com.cliq.cliq.views.HomeActivity;
+import com.sinch.android.rtc.SinchClient;
 
 import org.json.JSONArray;
 import org.json.JSONException;
@@ -40,6 +45,7 @@ public class ApiManager {
                     public void onResponse(String s) {
                         PreferenceManager.getDefaultSharedPreferences(context).edit().putString("user_id", s).commit();
                         PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
+                        setRegToken(DataModelController.reg_token);
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -73,8 +79,8 @@ public class ApiManager {
                     @Override
                     public void onResponse(String s) {
                         PreferenceManager.getDefaultSharedPreferences(context).edit().putString("user_id", s).commit();
-                        String user_id = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
-
+                        PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
+                        setRegToken(DataModelController.reg_token);
                     }
                 }, new Response.ErrorListener() {
             @Override
@@ -102,54 +108,81 @@ public class ApiManager {
     }
 
     /** Send a request for the friend's location. */
-    public void findFriend(final String friend_username, Context contex) {
-        String user_id = PreferenceManager.getDefaultSharedPreferences(context).getString("userid", null);
+    public void findFriend(final String friend_username) {
+        final String user_id = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
         if(user_id == null) {
             System.out.println("No bueno");
         } else {
-            Map<String, String> params = new HashMap<>();
-            params.put("friend_username", friend_username);
-            params.put("user_id", user_id);
-            final GetRequest request = new GetRequest(null, params, Constants.FIND_FRIEND, new Response.Listener<JSONObject>() {
+            HashMap<String, String> params = new HashMap<>();
+
+            //Debugging
+            System.out.println("Friend username: " + friend_username);
+            System.out.println("user_id " + user_id);
+            String url = Constants.FIND_FRIEND + "?user_id=" + user_id + "&friend_username=" + friend_username;
+            final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject jsonObject) {
                     System.out.println(jsonObject.toString());
                     try {
                         final JSONArray feedArray = jsonObject.getJSONArray("Items");
-                        final JSONObject feedObj = (JSONObject)feedArray.get(0);
-                        if(feedArray.length() <= 0 || feedObj.getString("reg_token") == null) {
+
+                        if(feedArray.length() <= 0) {
                             new SweetAlertDialog(context, SweetAlertDialog.ERROR_TYPE)
                                     .setTitleText("Error!")
                                     .setContentText("Could not find friend!")
                                     .show();
                         } else {
-                            new SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)
-                                    .setTitleText("Friend found!")
-                                    .setContentText("Send a request?")
-                                    .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                                        @Override
-                                        public void onClick(SweetAlertDialog sweetAlertDialog) {
-                                            try {
-                                                String friend_token = feedObj.getString("reg_token");
-                                                sendLocRequest(friend_token);
-                                            } catch (JSONException e) {
-                                                e.printStackTrace();
+                            final JSONObject feedObj = (JSONObject)feedArray.get(0);
+                            if(feedObj.getString("reg_token") == null) {
+                                new SweetAlertDialog(context, SweetAlertDialog.ERROR_TYPE)
+                                        .setTitleText("Error!")
+                                        .setContentText("Could not find friend!")
+                                        .show();
+                            } else {
+                                new SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)
+                                        .setTitleText("Friend found!")
+                                        .setContentText("Send a request?")
+                                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                                            @Override
+                                            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                                                try {
+                                                    String friend_token = feedObj.getString("reg_token");
+                                                    sendLocRequest(friend_token);
+                                                    Intent intent = new Intent(context, HomeActivity.class);
+                                                    context.startActivity(intent);
+                                                } catch (JSONException e) {
+                                                    e.printStackTrace();
+                                                }
                                             }
-                                        }
-                                    })
-                                    .show();
+                                        })
+                                        .show();
+                            }
                         }
                     } catch (JSONException e) {
                         e.printStackTrace();
                     }
-
                 }
             }, new Response.ErrorListener() {
                 @Override
                 public void onErrorResponse(VolleyError volleyError) {
                     System.out.println(volleyError);
                 }
-            });
+            }) {
+                @Override
+                protected Map<String, String> getParams() {
+                    Map<String, String> params = new HashMap<>();
+                    params.put("friend_username", friend_username);
+                    params.put("user_id", user_id);
+                    return params;
+                }
+
+                @Override
+                public Map<String, String> getHeaders() {
+                    Map<String, String> headers = new HashMap<>();
+                    headers.put("Content-Type", "application/x-www-form-urlencoded");
+                    return headers;
+                }
+            };
             AppController.getInstance().addToRequestQueue(request);
         }
 
@@ -169,6 +202,7 @@ public class ApiManager {
             @Override
             public void onResponse(String s) {
                 System.out.println(s);
+                PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean("registered", true).commit();
             }
         }, new Response.ErrorListener() {
             @Override
@@ -188,11 +222,13 @@ public class ApiManager {
     }
 
     /** Send a location/friend request. */
-    public void sendLocRequest(String friend_token) {
-        String text = "New friend request!";
+    public void sendLocRequest(final String friend_token) {
+        final String text = "New friend request!";
+
+        System.out.println("Token: " + friend_token);
 
         //TODO: Put in actual username here
-        String username = "username";
+        final String username = "username";
 
         HashMap<String, String> params = new HashMap<>();
         params.put("text", text);
@@ -209,7 +245,16 @@ public class ApiManager {
             public void onErrorResponse(VolleyError volleyError) {
                 System.out.println(volleyError);
             }
-        });
+        }) {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<>();
+                params.put("text", text);
+                params.put("username", username);
+                params.put("reg_token", friend_token);
+                return params;
+            }
+        };
 
         AppController.getInstance().addToRequestQueue(request);
     }

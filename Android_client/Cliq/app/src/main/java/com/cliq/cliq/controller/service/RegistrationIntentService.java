@@ -10,6 +10,7 @@ import android.util.Log;
 import com.cliq.cliq.R;
 import com.cliq.cliq.api.ApiManager;
 import com.cliq.cliq.controller.DataModelController;
+import com.cliq.cliq.model.Constants;
 import com.google.android.gms.gcm.GcmPubSub;
 import com.google.android.gms.gcm.GoogleCloudMessaging;
 import com.google.android.gms.iid.InstanceID;
@@ -40,13 +41,13 @@ public class RegistrationIntentService extends IntentService{
             // See https://developers.google.com/cloud-messaging/android/start for details on this file.
             // [START get_token]
             InstanceID instanceID = InstanceID.getInstance(this);
-            String token = instanceID.getToken(getString(R.string.gcm_defaultSenderId),
+            String token = instanceID.getToken(Constants.SENDER_ID,
                     GoogleCloudMessaging.INSTANCE_ID_SCOPE, null);
             // [END get_token]
             Log.i(TAG, "GCM Registration Token: " + token);
 
             /** Set the registration token. */
-            DataModelController.reg_token = token;
+            apiManager.setRegToken(token);
 
             // Subscribe to topic channels
             subscribeTopics(token);

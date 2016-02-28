@@ -38,8 +38,9 @@
                         android:textAllCaps="true"
                         android:id="@+id/textView" android:layout_gravity="center_horizontal"
                         android:textColor="@color/colorPrimary" android:textSize="20sp"/>
+
                     <EditText
-                        android:id="@+id/serach_bar"
+                        android:id="@+id/search_bar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"

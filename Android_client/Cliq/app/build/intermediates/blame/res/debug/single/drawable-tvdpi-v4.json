@@ -76,12 +76,12 @@
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-tvdpi\\common_google_signin_btn_text_light_normal.9.png"
     },
     {
-        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
-        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
-    },
-    {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_text_light_pressed.9.png",
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-tvdpi\\common_plus_signin_btn_text_light_pressed.9.png"
+    },
+    {
+        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\ic_plusone_standard_off_client.png",
+        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-plus\\8.3.0\\res\\drawable-tvdpi\\ic_plusone_standard_off_client.png"
     },
     {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-tvdpi-v4\\common_plus_signin_btn_icon_light_focused.9.png",
