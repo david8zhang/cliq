@@ -7,12 +7,14 @@ import android.content.Intent;
 import android.media.RingtoneManager;
 import android.net.Uri;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v4.app.NotificationCompat;
 
 import com.cliq.cliq.R;
 import com.cliq.cliq.views.ResponseActivity;
 import com.google.android.gms.gcm.GcmListenerService;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
 
 
 /**
@@ -27,7 +29,10 @@ public class MyGcmListenerService extends GcmListenerService {
         System.out.println("Message:" + data);
         String text = "Swipe to decline, tap to accept";
         String user_id = data.getString("username");
-        sendNotification(text, user_id);
+        String my_id = PreferenceManager.getDefaultSharedPreferences(this).getString("user_id", null);
+        if(my_id != null) {
+            sendNotification(text, user_id);
+        }
     }
 
     /** Show a toast, change this to a notification later. */

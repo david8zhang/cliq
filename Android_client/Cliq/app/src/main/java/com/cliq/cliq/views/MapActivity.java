@@ -71,7 +71,7 @@ public class MapActivity extends FragmentActivity
         };
 
         Criteria crit = new Criteria();
-        crit.setAccuracy(Criteria.ACCURACY_FINE);
+        crit.setAccuracy(Criteria.ACCURACY_HIGH);
         crit.setPowerRequirement(Criteria.POWER_MEDIUM);
         if (ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_FINE_LOCATION) != PackageManager.PERMISSION_GRANTED && ActivityCompat.checkSelfPermission(this, Manifest.permission.ACCESS_COARSE_LOCATION) != PackageManager.PERMISSION_GRANTED) {
             // TODO: Consider calling
@@ -83,7 +83,7 @@ public class MapActivity extends FragmentActivity
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        mLocationManager.requestLocationUpdates(5000L, 0.01f, crit, listener, Looper.myLooper());
+        mLocationManager.requestLocationUpdates(2000L, 0.5f, crit, listener, Looper.myLooper());
     }
 
     @Override
