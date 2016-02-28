@@ -11,6 +11,7 @@ import android.support.v4.content.LocalBroadcastManager;
 import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.View;
+import android.widget.Button;
 import android.widget.EditText;
 import android.widget.ImageButton;
 
@@ -46,6 +47,16 @@ public class HomeActivity extends AppCompatActivity{
                 HomeActivity.this.startActivity(finder);
             }
         });
+
+        Button map_button = (Button)findViewById(R.id.mapButton);
+        map_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent map = new Intent(HomeActivity.this, MapActivity.class);
+                HomeActivity.this.startActivity(map);
+            }
+        });
+
 
         broadcastReceiver = new BroadcastReceiver() {
             @Override

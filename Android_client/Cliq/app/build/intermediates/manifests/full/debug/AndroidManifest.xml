@@ -96,6 +96,14 @@
                 <category android:name="android.intent.category.DEFAULT" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.cliq.cliq.views.MapActivity"
+            android:label="@string/app_name"
+            android:theme="@style/AppTheme.NoActionBar" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+            </intent-filter>
+        </activity>
 
         <receiver
             android:name="com.google.android.gms.gcm.GcmReceiver"
@@ -125,6 +133,11 @@
             android:exported="false" >
         </service>
         <!-- [END reg_intent_service] -->
+
+        <meta-data
+            android:name="com.google.android.geo.API_KEY"
+            android:value="AIzaSyBsLG8vPyv0F-UYzgORfYHsELbVeWZ27cY" />
+
         <provider
             android:name="com.google.android.gms.measurement.AppMeasurementContentProvider"
             android:authorities="com.cliq.cliq.google_measurement_service"
@@ -145,8 +158,7 @@
 
         <meta-data
             android:name="com.google.android.gms.version"
-            android:value="@integer/google_play_services_version" />
- <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
+            android:value="@integer/google_play_services_version" /> <!-- Include the AdActivity and InAppPurchaseActivity configChanges and themes. -->
         <activity
             android:name="com.google.android.gms.ads.AdActivity"
             android:configChanges="keyboard|keyboardHidden|orientation|screenLayout|uiMode|screenSize|smallestScreenSize"

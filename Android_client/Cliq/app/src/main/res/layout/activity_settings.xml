@@ -173,7 +173,7 @@
             android:scaleType="fitCenter"
             android:background="@null"
             android:adjustViewBounds="true"
-            android:src="@drawable/usercount" />
+            android:src="@drawable/user_count" />
 
         <ImageButton
             android:layout_width="0dp"
