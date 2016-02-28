@@ -6,6 +6,7 @@ import android.os.Bundle;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.Button;
+import android.widget.ImageButton;
 
 import com.cliq.cliq.R;
 import com.google.android.gms.appdatasearch.GetRecentContextCall;
@@ -20,10 +21,10 @@ public class ResponseActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_response);
+        setContentView(R.layout.activity_request);
 
-        Button accept = (Button)findViewById(R.id.accept);
-        Button decline = (Button)findViewById(R.id.decline);
+        ImageButton accept = (ImageButton)findViewById(R.id.acceptbutton);
+        ImageButton decline = (ImageButton)findViewById(R.id.declinebutton);
 
         //TODO: Add a message telling users to turn on location services on their device.
 
@@ -32,6 +33,15 @@ public class ResponseActivity extends AppCompatActivity {
             public void onClick(View view) {
                 Intent mapIntent = new Intent(ResponseActivity.this, MapActivity.class);
                 ResponseActivity.this.startActivity(mapIntent);
+            }
+        });
+
+        decline.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent mainIntent = new Intent(ResponseActivity.this, HomeActivity.class);
+                mainIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+                ResponseActivity.this.startActivity(mainIntent);
             }
         });
 

@@ -34,8 +34,11 @@ public class MyGcmListenerService extends GcmListenerService {
         String user_id = data.getString("username");
         String friend_token = data.getString("text");
         /** Add the friend_id and friend_token to the current list. */
-        DataModelController.friend_tokens.add(friend_token);
-        DataModelController.friend_ids.add(user_id);
+        DataModelController.friend_token= friend_token;
+        DataModelController.friend_id = user_id;
+
+        System.out.println(friend_token);
+        System.out.println("Friend id: " + user_id);
 
         if(type.equals("request")) {
             title = "Location Request!";

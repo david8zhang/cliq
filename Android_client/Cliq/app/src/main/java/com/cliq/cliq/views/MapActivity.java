@@ -4,6 +4,7 @@ import android.Manifest;
 import android.content.Context;
 import android.content.Intent;
 import android.content.pm.PackageManager;
+import android.graphics.BitmapFactory;
 import android.location.Criteria;
 import android.location.Location;
 import android.location.LocationListener;
@@ -17,6 +18,7 @@ import android.support.v7.app.AppCompatActivity;
 import android.util.Log;
 import android.view.KeyEvent;
 import android.view.View;
+import android.widget.Button;
 
 import com.cliq.cliq.R;
 import com.cliq.cliq.api.ApiManager;
@@ -26,6 +28,8 @@ import com.google.android.gms.maps.GoogleMap;
 import com.google.android.gms.maps.MapFragment;
 import com.google.android.gms.maps.MapView;
 import com.google.android.gms.maps.OnMapReadyCallback;
+import com.google.android.gms.maps.model.BitmapDescriptor;
+import com.google.android.gms.maps.model.BitmapDescriptorFactory;
 import com.google.android.gms.maps.model.LatLng;
 import com.google.android.gms.maps.model.Marker;
 import com.google.android.gms.maps.model.MarkerOptions;
@@ -42,6 +46,7 @@ import com.sinch.android.rtc.messaging.MessageDeliveryInfo;
 import com.sinch.android.rtc.messaging.MessageFailureInfo;
 import com.sinch.android.rtc.messaging.WritableMessage;
 
+import java.util.ArrayList;
 import java.util.List;
 
 import cn.pedant.SweetAlert.SweetAlertDialog;
@@ -55,6 +60,8 @@ public class MapActivity extends FragmentActivity
     LocationManager mLocationManager;
     Marker marker;
 
+    Marker friend;
+
     SinchClient sinchClient;
     MessageClient messageClient;
 
@@ -67,25 +74,10 @@ public class MapActivity extends FragmentActivity
 
         /** Send a response to the friend. */
         //TODO: Only works for one friend
-        apiManager.sendLocResponse(DataModelController.reg_token, DataModelController.friend_tokens.get(0));
+        apiManager.sendLocResponse(DataModelController.reg_token, DataModelController.friend_token);
 
         final String user_id = PreferenceManager.getDefaultSharedPreferences(this).getString("user_id", null);
-        if(user_id == null) {
-            new SweetAlertDialog(this, SweetAlertDialog.ERROR_TYPE)
-                    .setTitleText("Error!")
-                    .setConfirmText("Did you sign out?")
-                    .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
-                        @Override
-                        public void onClick(SweetAlertDialog sweetAlertDialog) {
-                            Intent intent = new Intent(MapActivity.this, HomeActivity.class);
-                            intent.setFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-                            MapActivity.this.startActivity(intent);
-                        }
-                    }).show();
-        } else {
-            startSinch(user_id);
-        }
-
+        startSinch(user_id);
 
 
         /** Get the Google Map. */
@@ -99,17 +91,14 @@ public class MapActivity extends FragmentActivity
         LocationListener listener = new LocationListener() {
             @Override
             public void onLocationChanged(Location location) {
-                System.out.println("Latitude: " + location.getLatitude());
-                System.out.println("Longitude: " + location.getLongitude());
                 double lat = location.getLatitude();
                 double lng = location.getLongitude();
 
                 /** Send location to friends. */
-                updateFriends(messageClient, user_id, lat, lng);
+                updateFriends(messageClient, lat, lng);
 
                 /** Update my position. */
                 marker.setPosition(new LatLng(lat, lng));
-
             }
 
             @Override
@@ -141,14 +130,20 @@ public class MapActivity extends FragmentActivity
             // for ActivityCompat#requestPermissions for more details.
             return;
         }
-        mLocationManager.requestLocationUpdates(2000L, 0.5f, crit, listener, Looper.myLooper());
+        mLocationManager.requestLocationUpdates(3000L, 0.5f, crit, listener, Looper.myLooper());
     }
 
     @Override
     public void onMapReady(GoogleMap map) {
         marker = map.addMarker(new MarkerOptions()
                 .position(new LatLng(0, 0))
-                .title("Me"));
+                .title("Me")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_BLUE)));
+
+        friend = map.addMarker(new MarkerOptions()
+                .position(new LatLng(0, 0))
+                .title("Friend")
+                .icon(BitmapDescriptorFactory.defaultMarker(BitmapDescriptorFactory.HUE_GREEN)));
     }
 
     /** Deal with Sinch messaging API.*/
@@ -162,8 +157,9 @@ public class MapActivity extends FragmentActivity
                 .userId(user_id)
                 .build();
 
-        sinchClient.setSupportActiveConnectionInBackground(true);
         sinchClient.setSupportMessaging(true);
+        sinchClient.setSupportActiveConnectionInBackground(true);
+        sinchClient.startListeningOnActiveConnection();
 
         sinchClient.addSinchClientListener(new SinchClientListener() {
             @Override
@@ -193,46 +189,57 @@ public class MapActivity extends FragmentActivity
                 System.out.println(s1);
             }
         });
-
+        sinchClient.start();
         /** Deal with messages. */
         messageClient = sinchClient.getMessageClient();
-        MessageClientListener listener = new MessageClientListener() {
+        MessageClientListener sinch_listener = new MessageClientListener() {
 
             @Override
             public void onIncomingMessage(MessageClient messageClient, Message message) {
-                System.out.println(message.getTextBody());
+                String msg = message.getTextBody();
+                double lat = Double.parseDouble(msg.substring(0, msg.indexOf('&')));
+                double lng = Double.parseDouble(msg.substring(msg.indexOf('&') + 1));
+                System.out.println("lat: " + lat);
+                System.out.println("lng: " + lng);
+                rerenderFriends(lat, lng);
             }
 
             @Override
             public void onMessageSent(MessageClient messageClient, Message message, String s) {
-                System.out.println(s);
+                System.out.println("Sent!");
             }
 
             @Override
             public void onMessageFailed(MessageClient messageClient, Message message, MessageFailureInfo messageFailureInfo) {
-                System.out.println(messageFailureInfo.toString());
+                System.out.println("Failed");
             }
 
             @Override
             public void onMessageDelivered(MessageClient messageClient, MessageDeliveryInfo messageDeliveryInfo) {
-                System.out.println(messageDeliveryInfo);
+                System.out.println("Delivered!");
             }
 
             @Override
             public void onShouldSendPushData(MessageClient messageClient, Message message, List<PushPair> list) {
-                System.out.println(message);
+                System.out.println("Pushed!");
             }
         };
-        messageClient.addMessageClientListener(listener);
+        messageClient.addMessageClientListener(sinch_listener);
     }
 
     /** Send Sinch Messages to all friends. */
-    public void updateFriends(MessageClient messageClient, String my_id, double lat, double lng) {
-        String location = my_id + "&" + lat + "&" + lng;
-        for(String friend_id: DataModelController.friend_ids){
-            WritableMessage message = new WritableMessage(friend_id, location);
+    public void updateFriends(MessageClient messageClient, double lat, double lng) {
+        if(messageClient != null) {
+            String location = lat + "&" + lng;
+            System.out.println(location);
+            WritableMessage message = new WritableMessage(DataModelController.friend_id, location);
             messageClient.send(message);
         }
+    }
+
+    /** Rerender the locations of all friends. */
+    public void rerenderFriends(double lat, double lng) {
+        friend.setPosition(new LatLng(lat, lng));
     }
 
     /** Terminate the Sinch Client if press back. */

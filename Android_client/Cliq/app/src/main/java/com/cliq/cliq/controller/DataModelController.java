@@ -17,11 +17,11 @@ public class DataModelController {
     public static String reg_token;
 
     /** The tokens of friends. */
-    public static ArrayList<String> friend_tokens = new ArrayList<>();
+    public static String friend_token;
 
     /** the ids of friends. */
     //TODO: Change this to a hash map of friend_ids??
-    public static ArrayList<String> friend_ids = new ArrayList<>();
+    public static String friend_id;
 
     public static DataModelController getInstance() {
         synchronized(obj) {

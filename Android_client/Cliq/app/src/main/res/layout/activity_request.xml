@@ -15,8 +15,20 @@
         android:textSize="36dp"
         android:text="FIND REQUEST"
         android:id="@+id/title"
-        android:layout_weight="1"
+        android:layout_weight=".4"
         android:textIsSelectable="true" />
+
+    <ImageView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:id="@+id/friendicon"
+        android:layout_weight=".6"
+        android:src="@drawable/friend1" />
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1" />
 
     <LinearLayout
         android:orientation="horizontal"
@@ -37,7 +49,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="USERNAME"
-            android:id="@+id/username"
             android:gravity="center_horizontal"
             android:textSize="18dp"
             android:layout_weight="2" />
@@ -61,7 +72,7 @@
         android:layout_height="0dp"
         android:gravity="center_horizontal"
         android:textSize="32dp"
-        android:text="GAMER"
+        android:text="CLIQER"
         android:id="@+id/requester"
         android:layout_weight=".4" />
 
@@ -73,7 +84,7 @@
         android:scaleType="fitCenter"
         android:textSize="26dp"
         android:text="HAS SENT A REQUEST"
-        android:id="@+id/name"
+        android:id="@+id/message"
         android:layout_weight=".3" />
 
     <LinearLayout
@@ -121,30 +132,30 @@
             android:layout_height="fill_parent"
             android:layout_weight="1" />
 
-        <!--<ImageButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="fill_parent"-->
-            <!--android:id="@+id/c_email"-->
-            <!--android:layout_weight=".75"-->
-            <!--android:scaleType="fitCenter"-->
-            <!--android:background="@null"-->
-            <!--android:adjustViewBounds="true"-->
-            <!--android:src="@drawable/accept" />-->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/acceptbutton"
+            android:layout_weight=".75"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:src="@drawable/accept"/>
 
         <Space
             android:layout_width="0dp"
             android:layout_height="fill_parent"
             android:layout_weight=".5" />
 
-        <!--<ImageButton-->
-            <!--android:layout_width="0dp"-->
-            <!--android:layout_height="fill_parent"-->
-            <!--android:id="@+id/c_password"-->
-            <!--android:layout_weight=".75"-->
-            <!--android:scaleType="fitCenter"-->
-            <!--android:background="@null"-->
-            <!--android:adjustViewBounds="true"-->
-            <!--android:src="@drawable/decline" />-->
+        <ImageButton
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:id="@+id/declinebutton"
+            android:layout_weight=".75"
+            android:scaleType="fitCenter"
+            android:background="@null"
+            android:adjustViewBounds="true"
+            android:src="@drawable/decline"/>
 
         <Space
             android:layout_width="0dp"
@@ -172,7 +183,6 @@
             android:layout_height="fill_parent"
             android:text="ACCEPT"
             android:gravity="center_horizontal"
-            android:id="@+id/accept"
             android:layout_weight=".75" />
 
         <Space
@@ -185,7 +195,7 @@
             android:layout_height="wrap_content"
             android:text="DECLINE"
             android:gravity="center_horizontal"
-            android:id="@+id/decline"
+            android:id="@+id/textView3"
             android:layout_weight=".75" />
 
         <Space

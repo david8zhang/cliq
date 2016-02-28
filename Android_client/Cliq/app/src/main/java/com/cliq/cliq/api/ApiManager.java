@@ -147,7 +147,7 @@ public class ApiManager {
                                             public void onClick(SweetAlertDialog sweetAlertDialog) {
                                                 try {
                                                     final String friend_token = feedObj.getString("reg_token");
-                                                    DataModelController.friend_tokens.add(friend_token);
+                                                    DataModelController.friend_token = friend_token;
                                                     sendLocRequest(DataModelController.reg_token, friend_token);
                                                 } catch (JSONException e) {
                                                     e.printStackTrace();
