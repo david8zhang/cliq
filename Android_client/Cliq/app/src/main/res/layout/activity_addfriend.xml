@@ -3,12 +3,6 @@
     android:orientation="vertical" android:layout_width="match_parent"
     android:layout_height="match_parent">
 
-    <LinearLayout
-        android:orientation="vertical"
-        android:layout_width="fill_parent"
-        android:layout_height="fill_parent"
-        android:weightSum="7.75">
-
         <LinearLayout
             android:orientation="vertical"
             android:layout_width="fill_parent"
@@ -25,62 +19,57 @@
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
                 android:id="@+id/icon"
-                android:layout_weight="2.5"
+                android:layout_weight="2.0"
                 android:src="@drawable/cliqicon" />
 
-
             <LinearLayout
-                android:orientation="horizontal"
-                android:layout_width="match_parent"
-                android:layout_height="0dp"
-                android:weightSum="3"
-                android:layout_weight=".75">
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:orientation="vertical"
+                android:paddingLeft="40dp"
+                android:paddingRight="40dp">
 
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1" />
-
-                <android.support.design.widget.TextInputLayout
-                    android:id="@+id/username_layout"
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:background="@color/standardpurple"
-                    android:layout_weight="1">
-
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="40dp"
+                        android:text="Friend's Username?"
+                        android:textAllCaps="true"
+                        android:id="@+id/textView" android:layout_gravity="center_horizontal"
+                        android:textColor="@color/colorPrimary" android:textSize="20sp"/>
                     <EditText
-                        android:id="@+id/username"
+                        android:id="@+id/serach_bar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
-                        android:hint="USERNAME"
-                        android:layout_gravity="center_horizontal"
-                        android:singleLine="true"/>
+                        android:layout_marginTop="8dp"
+                        android:inputType="textPersonName"
+                        android:textSize="32sp"
+                        android:padding="10dp"
+                        android:textColor="@color/colorPrimaryDark"
+                        android:background="@drawable/inputbox">
 
-                </android.support.design.widget.TextInputLayout>
+                        <requestFocus/>
+                    </EditText>
 
-                <Space
-                    android:layout_width="0dp"
-                    android:layout_height="fill_parent"
-                    android:layout_weight="1" />
-            </LinearLayout>
+                </LinearLayout>
 
 
             <Space
                 android:layout_width="fill_parent"
                 android:layout_height="0dp"
-                android:layout_weight=".5" />
+                android:layout_weight="1" />
 
             <ImageButton
                 android:layout_width="wrap_content"
                 android:layout_height="0dp"
-                android:id="@+id/confirm"
+                android:id="@+id/find_friend"
                 android:layout_weight="1"
                 android:src="@drawable/findbutton"
                 android:scaleType="fitCenter"
                 android:layout_gravity="center_horizontal"
                 android:background="@null"
                 android:adjustViewBounds="true" />
-        </LinearLayout>
 
     </LinearLayout>
 
