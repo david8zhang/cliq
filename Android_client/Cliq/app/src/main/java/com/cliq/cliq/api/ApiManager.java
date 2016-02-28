@@ -266,16 +266,16 @@ public class ApiManager {
         if (user_id == null)
             System.out.println("no user id, shit");
         else {
-            System.out.println("fucking did this shit");
-            String url = Constants.USER_INFO + "?user_id" + user_id;
+            //System.out.println("fucking did this shit");
+            String url = Constants.USER_INFO + "?user_id=" + user_id;
             final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
                 @Override
                 public void onResponse(JSONObject jsonObject) {
-                    System.out.println("fuck yeah got response");
+                    //System.out.println("fuck yeah got response");
                     try {
                         final JSONArray feedArray = jsonObject.getJSONArray("Items");
 
-                        if (feedArray.length() <= 0) {
+                        if (feedArray.length() > 0) {
                             final JSONObject feedObj = (JSONObject) feedArray.get(0);
                             User user = new User("", "");
                             if (feedObj.getString("username") != null) {
@@ -284,7 +284,7 @@ public class ApiManager {
                             }
                             if (feedObj.getString("email") != null) {
                                 user.setEmail(feedObj.getString("email"));
-                                System.out.println("yee, username: " + user.getEmail());
+                                System.out.println("yee, email: " + user.getEmail());
                             }
                             DataModelController.setUser(user);
                         }
@@ -300,6 +300,32 @@ public class ApiManager {
             });
             AppController.getInstance().addToRequestQueue(request);
         }
+    }
+
+    public void setEmail()
+    {
+        /*final String user_id = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
+        if(user_id == null) {
+            System.out.println("user id cannot be null!");
+        }
+        StringRequest request = new StringRequest(Request.Method.POST, Constants., new Response.Listener<String>() {
+            @Override
+            public void onResponse(String s) {
+                System.out.println(s);
+                PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean("registered", true).commit();
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                System.out.println(volleyError);
+            }
+        });
+        AppController.getInstance().addToRequestQueue(request);*/
+    }
+
+    public void setPassword()
+    {
+
     }
 }
 

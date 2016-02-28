@@ -24,6 +24,7 @@ public class FinderActivity extends AppCompatActivity {
         setContentView(R.layout.activity_addfriend);
 
         final ApiManager apiManager = new ApiManager(this);
+        //apiManager.getUserInfo();
 
         ImageButton findFriend = (ImageButton)findViewById(R.id.find_friend);
         findFriend.setOnClickListener(new View.OnClickListener() {
