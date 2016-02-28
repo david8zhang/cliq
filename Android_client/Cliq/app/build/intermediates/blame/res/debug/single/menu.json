@@ -1,6 +1,10 @@
 [
     {
-        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
-        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\menu\\menu_main.xml"
+        "merged": "/Users/David/Desktop/Projects/cliq/Android_client/Cliq/C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\menu\\menu_main.xml",
+        "source": "/Users/David/Desktop/Projects/cliq/Android_client/Cliq/C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\src\\main\\res\\menu\\menu_main.xml"
+    },
+    {
+        "merged": "/Users/David/Desktop/Projects/cliq/Android_client/Cliq/app/build/intermediates/res/merged/debug/menu/menu_main.xml",
+        "source": "/Users/David/Desktop/Projects/cliq/Android_client/Cliq/app/src/main/res/menu/menu_main.xml"
     }
 ]
