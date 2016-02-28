@@ -2731,7 +2731,7 @@ containing a value of this type.
         public static final int cast_ic_notification_2=0x7f020045;
         public static final int cast_ic_notification_connecting=0x7f020046;
         public static final int cast_ic_notification_on=0x7f020047;
-        public static final int cliqicon=0x7f020048;
+        public static final int cliq_icon=0x7f020048;
         public static final int common_full_open_on_phone=0x7f020049;
         public static final int common_google_signin_btn_icon_dark=0x7f02004a;
         public static final int common_google_signin_btn_icon_dark_disabled=0x7f02004b;
@@ -2846,7 +2846,7 @@ containing a value of this type.
         public static final int signup=0x7f0200b7;
         public static final int success_bow=0x7f0200b8;
         public static final int success_circle=0x7f0200b9;
-        public static final int usercount=0x7f0200ba;
+        public static final int user_count=0x7f0200ba;
         public static final int warning_circle=0x7f0200bb;
         public static final int warning_sigh=0x7f0200bc;
     }

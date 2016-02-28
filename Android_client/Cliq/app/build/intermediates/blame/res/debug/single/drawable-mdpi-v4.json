@@ -212,12 +212,12 @@
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-mdpi\\common_google_signin_btn_text_light_focused.9.png"
     },
     {
-        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
-        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
-    },
-    {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_full_open_on_phone.png",
         "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-basement\\8.3.0\\res\\drawable-mdpi\\common_full_open_on_phone.png"
+    },
+    {
+        "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\common_plus_signin_btn_icon_dark_pressed.9.png",
+        "source": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\exploded-aar\\com.google.android.gms\\play-services-base\\8.3.0\\res\\drawable-mdpi\\common_plus_signin_btn_icon_dark_pressed.9.png"
     },
     {
         "merged": "C:\\Users\\david_000\\Desktop\\Projects\\Cliq\\cliq\\Android_client\\Cliq\\app\\build\\intermediates\\res\\merged\\debug\\drawable-mdpi-v4\\ic_cast_on_1_light.png",
