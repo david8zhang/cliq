@@ -2,6 +2,7 @@ package com.cliq.cliq.views;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.view.View;
 import android.widget.EditText;
@@ -45,6 +46,7 @@ public class RegisterActivity extends AppCompatActivity {
                     email = emailview.getText().toString();
                     apiManager.register(email, username, password);
                 }
+                PreferenceManager.getDefaultSharedPreferences(RegisterActivity.this).edit().putString("username", username).commit();
                 new SweetAlertDialog(RegisterActivity.this, SweetAlertDialog.SUCCESS_TYPE)
                         .setTitleText("Success!")
                         .setConfirmText("Click ok to find friends!")

@@ -48,6 +48,7 @@ public class RegistrationIntentService extends IntentService{
 
             /** Set the registration token. */
             apiManager.setRegToken(token);
+            DataModelController.reg_token = token;
 
             // Subscribe to topic channels
             subscribeTopics(token);

@@ -48,6 +48,7 @@ public class LoginActivity extends AppCompatActivity {
                     apiManager.authenticate(username, password);
                 }
                 if(PreferenceManager.getDefaultSharedPreferences(LoginActivity.this).getString("user_id", null) != null) {
+                    PreferenceManager.getDefaultSharedPreferences(LoginActivity.this).edit().putString("username", username).commit();
                     new SweetAlertDialog(LoginActivity.this, SweetAlertDialog.SUCCESS_TYPE)
                             .setTitleText("Login Successful!")
                             .setContentText("Click ok to find friends!")

@@ -5,6 +5,7 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.media.audiofx.BassBoost;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
@@ -44,6 +45,15 @@ public class HomeActivity extends AppCompatActivity{
             @Override
             public void onClick(View view) {
                 Intent finder = new Intent(HomeActivity.this, FinderActivity.class);
+                HomeActivity.this.startActivity(finder);
+            }
+        });
+
+        ImageButton home_button = (ImageButton)findViewById(R.id.homebutton);
+        home_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent finder = new Intent(HomeActivity.this, SettingsActivity.class);
                 HomeActivity.this.startActivity(finder);
             }
         });

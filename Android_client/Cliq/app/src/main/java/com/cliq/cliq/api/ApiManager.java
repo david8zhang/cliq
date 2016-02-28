@@ -13,6 +13,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.cliq.cliq.controller.AppController;
 import com.cliq.cliq.controller.DataModelController;
 import com.cliq.cliq.model.Constants;
+import com.cliq.cliq.model.User;
 import com.cliq.cliq.views.HomeActivity;
 import com.sinch.android.rtc.SinchClient;
 
@@ -146,10 +147,9 @@ public class ApiManager {
                                             @Override
                                             public void onClick(SweetAlertDialog sweetAlertDialog) {
                                                 try {
-                                                    String friend_token = feedObj.getString("reg_token");
-                                                    sendLocRequest(friend_token);
-                                                    Intent intent = new Intent(context, HomeActivity.class);
-                                                    context.startActivity(intent);
+                                                    final String friend_token = feedObj.getString("reg_token");
+                                                    DataModelController.friend_token = friend_token;
+                                                    sendLocRequest(DataModelController.reg_token, friend_token);
                                                 } catch (JSONException e) {
                                                     e.printStackTrace();
                                                 }
@@ -197,12 +197,12 @@ public class ApiManager {
         if(reg_token == null) {
             System.out.println("reg_token cannot be null!");
         }
-        HashMap<String, String> params = new HashMap<>();
         StringRequest request = new StringRequest(Request.Method.POST, Constants.SEND_REG, new Response.Listener<String>() {
             @Override
             public void onResponse(String s) {
                 System.out.println(s);
                 PreferenceManager.getDefaultSharedPreferences(context).edit().putBoolean("registered", true).commit();
+
             }
         }, new Response.ErrorListener() {
             @Override
@@ -221,24 +221,123 @@ public class ApiManager {
         AppController.getInstance().addToRequestQueue(request);
     }
 
+    public void getUserInfo()
+    {
+        final String user_id = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
+        if (user_id == null)
+            System.out.println("no user id, shit");
+        else {
+            //System.out.println("fucking did this shit");
+            String url = Constants.USER_INFO + "?user_id=" + user_id;
+            final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+                @Override
+                public void onResponse(JSONObject jsonObject) {
+                    //System.out.println("fuck yeah got response");
+                    try {
+                        final JSONArray feedArray = jsonObject.getJSONArray("Items");
+
+                        if (feedArray.length() > 0) {
+                            final JSONObject feedObj = (JSONObject) feedArray.get(0);
+                            User user = new User("", "");
+                            if (feedObj.getString("username") != null) {
+                                user.setName(feedObj.getString("username"));
+                                System.out.println("yee, username : " + user.getName());
+                            }
+                            if (feedObj.getString("email") != null) {
+                                user.setEmail(feedObj.getString("email"));
+                                System.out.println("yee, email: " + user.getEmail());
+                            }
+                            DataModelController.setUser(user);
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError volleyError) {
+                    System.out.println(volleyError);
+                }
+            });
+            AppController.getInstance().addToRequestQueue(request);
+        }
+    }
+
     /** Send a location/friend request. */
-    public void sendLocRequest(final String friend_token) {
-        final String text = "New friend request!";
-
-        System.out.println("Token: " + friend_token);
-
-        //TODO: Put in actual username here
-        final String username = "username";
-
-        HashMap<String, String> params = new HashMap<>();
-        params.put("text", text);
-        params.put("username", username);
-        params.put("reg_token", friend_token);
-
+    public void sendLocRequest(final String my_token, final String friend_token) {
+        if(my_token == null) {
+            System.out.println("no Bueno my token");
+            return;
+        }
+        if(friend_token == null) {
+            System.out.println("no Bueno friend_token");
+            return;
+        }
+        System.out.println("Sent a location request!");
+        final String type = "request";
+        final String username = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
         StringRequest request = new StringRequest(Request.Method.POST, Constants.SEND_GCM, new Response.Listener<String>() {
             @Override
             public void onResponse(String s) {
                 System.out.println(s);
+                new SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)
+                        .setTitleText("Success!")
+                        .setContentText("location request sent!")
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                                Intent intent = new Intent(context, HomeActivity.class);
+                                context.startActivity(intent);
+                            }
+                        }).show();
+            }
+        }, new Response.ErrorListener() {
+            @Override
+            public void onErrorResponse(VolleyError volleyError) {
+                System.out.println(volleyError);
+                new SweetAlertDialog(context, SweetAlertDialog.ERROR_TYPE)
+                        .setTitleText("Error!")
+                        .setContentText("location request Failed!")
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                                Intent intent = new Intent(context, HomeActivity.class);
+                                context.startActivity(intent);
+                            }
+                        }).show();
+            }
+        }) {
+            @Override
+            protected Map<String, String> getParams() {
+                Map<String, String> params = new HashMap<>();
+                params.put("text", my_token);
+                params.put("username", username);
+                params.put("type", type);
+                params.put("reg_token", friend_token);
+                return params;
+            }
+        };
+
+        AppController.getInstance().addToRequestQueue(request);
+    }
+
+    /** Send a handshake response to the location request. */
+    public void sendLocResponse(final String my_token, final String friend_token) {
+        System.out.println("Sent a location response!");
+        final String type = "response";
+        final String username = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
+        StringRequest request = new StringRequest(Request.Method.POST, Constants.SEND_GCM, new Response.Listener<String>() {
+            @Override
+            public void onResponse(String s) {
+                new SweetAlertDialog(context, SweetAlertDialog.SUCCESS_TYPE)
+                        .setTitleText("Success!")
+                        .setContentText("location response sent!")
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                                sweetAlertDialog.cancel();
+                            }
+                        }).show();
             }
         }, new Response.ErrorListener() {
             @Override
@@ -249,13 +348,13 @@ public class ApiManager {
             @Override
             protected Map<String, String> getParams() {
                 Map<String, String> params = new HashMap<>();
-                params.put("text", text);
+                params.put("text", my_token);
                 params.put("username", username);
+                params.put("type", type);
                 params.put("reg_token", friend_token);
                 return params;
             }
         };
-
         AppController.getInstance().addToRequestQueue(request);
     }
 }
