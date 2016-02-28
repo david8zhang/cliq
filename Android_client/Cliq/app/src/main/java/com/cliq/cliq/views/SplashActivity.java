@@ -6,6 +6,8 @@ import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 
+import com.cliq.cliq.R;
+
 /**
  * Created by david_000 on 2/27/2016.
  */
@@ -13,12 +15,15 @@ public class SplashActivity extends AppCompatActivity{
 
     SharedPreferences mPrefs;
 
-    protected void OnCreate(Bundle savedInstanceState) {
+    @Override
+    protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
+        setContentView(R.layout.activity_splash);
 
         mPrefs = PreferenceManager.getDefaultSharedPreferences(this);
-        String user_id = mPrefs.getString("user_id", null);
-        Thread homeThread = new Thread() {
+        final String user_id = mPrefs.getString("user_id", null);
+        System.out.println(user_id);
+        Thread welcomeThread = new Thread() {
             @Override
             public void run() {
                 try {
@@ -27,32 +32,19 @@ public class SplashActivity extends AppCompatActivity{
                 } catch (Exception e) {
                     System.out.println(e);
                 } finally {
-                    Intent i = new Intent(SplashActivity.this, HomeActivity.class);
-                    startActivity(i);
-                    finish();
+                    if(user_id == null) {
+                        Intent onboard = new Intent(SplashActivity.this, OnBoardActivity.class);
+                        SplashActivity.this.startActivity(onboard);
+                        finish();
+                    } else {
+                        Intent i = new Intent(SplashActivity.this, HomeActivity.class);
+                        SplashActivity.this.startActivity(i);
+                        finish();
+                    }
                 }
             }
         };
-        Thread onboardThread = new Thread() {
-            @Override
-            public void run() {
-                try {
-                    super.run();
-                    sleep(3000);
-                } catch (Exception e) {
-                    System.out.println(e);
-                } finally {
-                    Intent i = new Intent(SplashActivity.this, HomeActivity.class);
-                    startActivity(i);
-                    finish();
-                }
-            }
-        };
-        if(user_id == null) {
-            onboardThread.start();
-        } else {
-            homeThread.start();
-        }
+        welcomeThread.start();
     }
 
 }

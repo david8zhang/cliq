@@ -45,6 +45,7 @@
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:hint="USERNAME"
+                    android:inputType="textPersonName"
                     android:layout_gravity="center_horizontal"
                     android:singleLine="true"/>
 
@@ -75,6 +76,7 @@
                 <EditText
                     android:id="@+id/email"
                     android:hint="EMAIL ADDRESS"
+                    android:inputType="textEmailAddress"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"

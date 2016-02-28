@@ -18,6 +18,15 @@ public class HomeActivity extends AppCompatActivity{
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_signup);
+        setContentView(R.layout.activity_home);
+
+        ImageButton find_button = (ImageButton)findViewById(R.id.findbutton);
+        find_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent finder = new Intent(HomeActivity.this, FinderActivity.class);
+                HomeActivity.this.startActivity(finder);
+            }
+        });
     }
 }
