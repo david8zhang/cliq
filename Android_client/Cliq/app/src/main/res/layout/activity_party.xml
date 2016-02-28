@@ -58,7 +58,7 @@
             android:layout_height="fill_parent"
             android:id="@+id/partycount"
             android:layout_weight=".3"
-            android:src="@drawable/usercount" />
+            android:src="@drawable/user_count" />
 
         <Space
             android:layout_width="0dp"
