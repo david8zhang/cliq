@@ -25,6 +25,8 @@ public class ResponseActivity extends AppCompatActivity {
         Button accept = (Button)findViewById(R.id.accept);
         Button decline = (Button)findViewById(R.id.decline);
 
+        //TODO: Add a message telling users to turn on location services on their device.
+
         accept.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
