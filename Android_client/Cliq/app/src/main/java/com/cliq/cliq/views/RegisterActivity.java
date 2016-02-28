@@ -10,6 +10,8 @@ import android.widget.ImageButton;
 import com.cliq.cliq.R;
 import com.cliq.cliq.api.ApiManager;
 
+import cn.pedant.SweetAlert.SweetAlertDialog;
+
 /**
  * Created by david_000 on 2/27/2016.
  */
@@ -43,9 +45,16 @@ public class RegisterActivity extends AppCompatActivity {
                     email = emailview.getText().toString();
                     apiManager.register(email, username, password);
                 }
-
-                Intent intent = new Intent(RegisterActivity.this, HomeActivity.class);
-                RegisterActivity.this.startActivity(intent);
+                new SweetAlertDialog(RegisterActivity.this, SweetAlertDialog.SUCCESS_TYPE)
+                        .setTitleText("Success!")
+                        .setConfirmText("Click ok to find friends!")
+                        .setConfirmClickListener(new SweetAlertDialog.OnSweetClickListener() {
+                            @Override
+                            public void onClick(SweetAlertDialog sweetAlertDialog) {
+                                Intent intent = new Intent(RegisterActivity.this, HomeActivity.class);
+                                RegisterActivity.this.startActivity(intent);
+                            }
+                        }).show();
             }
         });
 

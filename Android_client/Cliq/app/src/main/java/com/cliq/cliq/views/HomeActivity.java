@@ -76,10 +76,6 @@ public class HomeActivity extends AppCompatActivity{
             Intent intent = new Intent(this, RegistrationIntentService.class);
             startService(intent);
         }
-
-        if(DataModelController.reg_token != null) {
-            apiManager.setRegToken(DataModelController.reg_token);
-        }
     }
 
     @Override

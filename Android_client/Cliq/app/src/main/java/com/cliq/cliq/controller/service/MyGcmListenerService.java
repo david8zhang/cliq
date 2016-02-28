@@ -25,28 +25,21 @@ public class MyGcmListenerService extends GcmListenerService {
     @Override
     public void onMessageReceived(String from, Bundle data) {
         System.out.println("Message:" + data);
-        System.out.println("type: " + data.getString("type"));
-        sendNotification(data.getString("type"));
+        sendNotification();
     }
 
     /** Show a toast, change this to a notification later. */
-    private void sendNotification(String label) {
-        String message = "";
-        if(label.equals("subscribe")) {
-            message = "Click to subscribe!";
-        } else if(label.equals("new")) {
-            message = "A new question has arrived!";
-        }
-        Intent subscribeIntent = new Intent(this, HomeActivity.class);
-        subscribeIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
-        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, subscribeIntent,
+    private void sendNotification() {
+        Intent requestIntent = new Intent(this, HomeActivity.class);
+        requestIntent.addFlags(Intent.FLAG_ACTIVITY_CLEAR_TOP);
+        PendingIntent pendingIntent = PendingIntent.getActivity(this, 0 /* Request code */, requestIntent,
                 PendingIntent.FLAG_ONE_SHOT);
 
         Uri defaultSoundUri = RingtoneManager.getDefaultUri(RingtoneManager.TYPE_NOTIFICATION);
         NotificationCompat.Builder notificationBuilder = new NotificationCompat.Builder(this)
                 .setSmallIcon(R.drawable.friend1)
                 .setContentTitle("cliq")
-                .setContentText(message)
+                .setContentText("New message")
                 .setAutoCancel(true)
                 .setSound(defaultSoundUri)
                 .setContentIntent(pendingIntent);

@@ -11,4 +11,5 @@ public class Constants {
     public static String FIND_FRIEND = "https://cliq-api.herokuapp.com/api/v1/users/find_friend";
     public static String SEND_REG = "https://cliq-api.herokuapp.com/api/v1/users/add_reg";
     public static String SEND_GCM = "https://cliq-api.herokuapp.com/api/v1/gcm/send";
+    public static String SENDER_ID = "274438586913";
 }
