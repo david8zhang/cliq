@@ -20,7 +20,7 @@
                 android:layout_height="0dp"
                 android:id="@+id/icon"
                 android:layout_weight="2.0"
-                android:src="@drawable/cliqicon" />
+                android:src="@drawable/cliq_icon" />
 
             <LinearLayout
                 android:layout_width="fill_parent"
@@ -38,8 +38,9 @@
                         android:textAllCaps="true"
                         android:id="@+id/textView" android:layout_gravity="center_horizontal"
                         android:textColor="@color/colorPrimary" android:textSize="20sp"/>
+
                     <EditText
-                        android:id="@+id/serach_bar"
+                        android:id="@+id/search_bar"
                         android:layout_width="match_parent"
                         android:layout_height="wrap_content"
                         android:layout_marginTop="8dp"
