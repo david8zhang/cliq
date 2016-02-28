@@ -48,16 +48,6 @@ public class HomeActivity extends AppCompatActivity{
             }
         });
 
-        Button map_button = (Button)findViewById(R.id.mapButton);
-        map_button.setOnClickListener(new View.OnClickListener() {
-            @Override
-            public void onClick(View view) {
-                Intent map = new Intent(HomeActivity.this, MapActivity.class);
-                HomeActivity.this.startActivity(map);
-            }
-        });
-
-
         broadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {

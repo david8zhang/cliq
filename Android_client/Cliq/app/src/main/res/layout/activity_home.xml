@@ -55,13 +55,5 @@
             android:src="@drawable/homebutton"
             android:adjustViewBounds="true" />
 
-        <Button
-            style="?android:attr/buttonStyleSmall"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:text="Map"
-            android:id="@+id/mapButton"
-            android:layout_gravity="center_horizontal" />
-
     </LinearLayout>
 </RelativeLayout>
