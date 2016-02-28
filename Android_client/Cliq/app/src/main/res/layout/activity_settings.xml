@@ -15,7 +15,6 @@
         android:gravity="center_horizontal"
         android:textSize="36dp"
         android:text="SETTINGS"
-        android:id="@+id/name"
         android:layout_weight="1.5"
         android:textIsSelectable="true" />
 
@@ -38,7 +37,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="USERNAME"
-            android:id="@+id/textView2"
             android:gravity="center_horizontal"
             android:textSize="18dp"
             android:layout_weight="2" />
@@ -81,7 +79,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="EMAIL"
-            android:id="@+id/textView2"
             android:gravity="center_horizontal"
             android:textSize="18dp"
             android:layout_weight="2" />
@@ -102,7 +99,7 @@
         android:scaleType="fitCenter"
         android:textSize="30dp"
         android:text="CLIQHQ@LAUNCH.COM"
-        android:id="@+id/name"
+        android:id="@+id/email"
         android:layout_weight=".6" />
 
     <LinearLayout
@@ -124,7 +121,6 @@
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="OPTIONS"
-            android:id="@+id/textView2"
             android:gravity="center_horizontal"
             android:textSize="18dp"
             android:layout_weight="2" />
@@ -204,14 +200,12 @@
             android:layout_height="wrap_content"
             android:text="CHANGE EMAIL"
             android:gravity="center_horizontal"
-            android:id="@+id/textView3"
             android:layout_weight="1" />
         <TextView
             android:layout_width="0dp"
             android:layout_height="wrap_content"
             android:text="CHANGE PASSWORD"
             android:gravity="center_horizontal"
-            android:id="@+id/textView3"
             android:layout_weight="1" />
 
         <TextView
@@ -219,7 +213,6 @@
             android:layout_height="wrap_content"
             android:text="CHANGE ICON"
             android:gravity="center_horizontal"
-            android:id="@+id/textView3"
             android:layout_weight="1" />
 
         <TextView
@@ -227,8 +220,12 @@
             android:layout_height="wrap_content"
             android:text="SIGN OUT"
             android:gravity="center_horizontal"
-            android:id="@+id/textView3"
             android:layout_weight="1" />
     </LinearLayout>
+
+    <Space
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/popup_location"/>
 
 </LinearLayout>
