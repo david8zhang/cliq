@@ -48,6 +48,7 @@ public class HomeActivity extends AppCompatActivity {
         setContentView(R.layout.activity_home);
 
         ApiManager apiManager = new ApiManager(this);
+        apiManager.getUserInfo();
 
         ImageButton find_button = (ImageButton) findViewById(R.id.findbutton);
         find_button.setOnClickListener(new View.OnClickListener() {
