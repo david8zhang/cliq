@@ -280,11 +280,11 @@ public class ApiManager {
                             User user = new User("", "");
                             if (feedObj.getString("username") != null) {
                                 user.setName(feedObj.getString("username"));
-                                System.out.println("yee, username : " + user.getName());
+                                //System.out.println("yee, username : " + user.getName());
                             }
                             if (feedObj.getString("email") != null) {
                                 user.setEmail(feedObj.getString("email"));
-                                System.out.println("yee, email: " + user.getEmail());
+                                //System.out.println("yee, email: " + user.getEmail());
                             }
                             DataModelController.setUser(user);
                         }

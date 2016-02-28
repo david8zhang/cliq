@@ -2,6 +2,9 @@ package com.cliq.cliq.views;
 
 import android.app.ActionBar;
 import android.content.Context;
+import android.content.Intent;
+import android.media.audiofx.BassBoost;
+import android.preference.PreferenceManager;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.view.Gravity;
@@ -58,6 +61,17 @@ public class SettingsActivity extends AppCompatActivity {
 
         ImageButton c_email = (ImageButton) findViewById(R.id.c_email);
         ImageButton c_password = (ImageButton) findViewById(R.id.c_password);
+        ImageButton signout = (ImageButton) findViewById(R.id.signout);
+
+        signout.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                PreferenceManager.getDefaultSharedPreferences(SettingsActivity.this).edit().putString("user_id", null).commit();
+                PreferenceManager.getDefaultSharedPreferences(SettingsActivity.this).edit().putBoolean("registered", false).commit();
+                Intent login = new Intent(SettingsActivity.this, LoginActivity.class);
+                SettingsActivity.this.startActivity(login);
+            }
+        });
 
         c_email.setOnClickListener(new View.OnClickListener() {
             @Override
