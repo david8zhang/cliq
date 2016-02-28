@@ -13,6 +13,7 @@ import com.android.volley.toolbox.StringRequest;
 import com.cliq.cliq.controller.AppController;
 import com.cliq.cliq.controller.DataModelController;
 import com.cliq.cliq.model.Constants;
+import com.cliq.cliq.model.User;
 import com.cliq.cliq.views.HomeActivity;
 import com.sinch.android.rtc.SinchClient;
 
@@ -218,6 +219,48 @@ public class ApiManager {
             }
         };
         AppController.getInstance().addToRequestQueue(request);
+    }
+
+    public void getUserInfo()
+    {
+        final String user_id = PreferenceManager.getDefaultSharedPreferences(context).getString("user_id", null);
+        if (user_id == null)
+            System.out.println("no user id, shit");
+        else {
+            //System.out.println("fucking did this shit");
+            String url = Constants.USER_INFO + "?user_id=" + user_id;
+            final JsonObjectRequest request = new JsonObjectRequest(Request.Method.GET, url, null, new Response.Listener<JSONObject>() {
+                @Override
+                public void onResponse(JSONObject jsonObject) {
+                    //System.out.println("fuck yeah got response");
+                    try {
+                        final JSONArray feedArray = jsonObject.getJSONArray("Items");
+
+                        if (feedArray.length() > 0) {
+                            final JSONObject feedObj = (JSONObject) feedArray.get(0);
+                            User user = new User("", "");
+                            if (feedObj.getString("username") != null) {
+                                user.setName(feedObj.getString("username"));
+                                System.out.println("yee, username : " + user.getName());
+                            }
+                            if (feedObj.getString("email") != null) {
+                                user.setEmail(feedObj.getString("email"));
+                                System.out.println("yee, email: " + user.getEmail());
+                            }
+                            DataModelController.setUser(user);
+                        }
+                    } catch (JSONException e) {
+                        e.printStackTrace();
+                    }
+                }
+            }, new Response.ErrorListener() {
+                @Override
+                public void onErrorResponse(VolleyError volleyError) {
+                    System.out.println(volleyError);
+                }
+            });
+            AppController.getInstance().addToRequestQueue(request);
+        }
     }
 
     /** Send a location/friend request. */

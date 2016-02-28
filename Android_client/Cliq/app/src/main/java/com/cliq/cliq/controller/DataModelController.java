@@ -1,5 +1,7 @@
 package com.cliq.cliq.controller;
 
+import com.cliq.cliq.model.User;
+
 import java.util.ArrayList;
 
 /**
@@ -9,6 +11,7 @@ public class DataModelController {
 
     private static DataModelController mInstance;
     private static final Object obj = new Object();
+    private static User user;
 
     /** the userid. */
     public static String user_id;
@@ -30,5 +33,9 @@ public class DataModelController {
         }
         return mInstance;
     }
+
+
+    public static void setUser(User u) { user = u; }
+    public static User getUser() { return user; }
 
 }
