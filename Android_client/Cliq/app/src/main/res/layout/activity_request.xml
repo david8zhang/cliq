@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:textSize="36dp"
+        android:text="FIND REQUEST"
+        android:id="@+id/title"
+        android:layout_weight="1"
+        android:textIsSelectable="true" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:weightSum="5">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_weight="1.5"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="USERNAME"
+            android:id="@+id/username"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:layout_weight="2" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_weight="1.5"
+            android:orientation="vertical" />
+
+    </LinearLayout>
+    <Space
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".1" />
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:textSize="32dp"
+        android:text="GAMER"
+        android:id="@+id/requester"
+        android:layout_weight=".4" />
+
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:gravity="center_horizontal"
+        android:scaleType="fitCenter"
+        android:textSize="26dp"
+        android:text="HAS SENT A REQUEST"
+        android:id="@+id/name"
+        android:layout_weight=".3" />
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".2"
+        android:weightSum="5">
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_weight="1.5"
+            android:orientation="vertical" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="OPTIONS"
+            android:id="@+id/textView2"
+            android:gravity="center_horizontal"
+            android:textSize="18dp"
+            android:layout_weight="2" />
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@android:color/darker_gray"
+            android:layout_weight="1.5"
+            android:orientation="vertical" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".7"
+        android:weightSum="4">
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <!--<ImageButton-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:id="@+id/c_email"-->
+            <!--android:layout_weight=".75"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:background="@null"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/accept" />-->
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+
+        <!--<ImageButton-->
+            <!--android:layout_width="0dp"-->
+            <!--android:layout_height="fill_parent"-->
+            <!--android:id="@+id/c_password"-->
+            <!--android:layout_weight=".75"-->
+            <!--android:scaleType="fitCenter"-->
+            <!--android:background="@null"-->
+            <!--android:adjustViewBounds="true"-->
+            <!--android:src="@drawable/decline" />-->
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_height="0dp"
+        android:layout_weight=".6"
+        android:weightSum="4">
+
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:text="ACCEPT"
+            android:gravity="center_horizontal"
+            android:id="@+id/accept"
+            android:layout_weight=".75" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight=".5" />
+
+        <TextView
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="DECLINE"
+            android:gravity="center_horizontal"
+            android:id="@+id/decline"
+            android:layout_weight=".75" />
+
+        <Space
+            android:layout_width="0dp"
+            android:layout_height="fill_parent"
+            android:layout_weight="1" />
+
+    </LinearLayout>
+
+
+</LinearLayout>
