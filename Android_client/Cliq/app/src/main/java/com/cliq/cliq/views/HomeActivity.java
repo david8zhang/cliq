@@ -5,6 +5,8 @@ import android.content.Context;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.SharedPreferences;
+import android.media.audiofx.BassBoost;
+import android.net.Uri;
 import android.os.Bundle;
 import android.preference.PreferenceManager;
 import android.support.v4.content.LocalBroadcastManager;
@@ -20,17 +22,25 @@ import com.cliq.cliq.api.ApiManager;
 import com.cliq.cliq.controller.DataModelController;
 import com.cliq.cliq.controller.service.QuickstartPreferences;
 import com.cliq.cliq.controller.service.RegistrationIntentService;
+import com.google.android.gms.appindexing.Action;
+import com.google.android.gms.appindexing.AppIndex;
 import com.google.android.gms.common.ConnectionResult;
 import com.google.android.gms.common.GoogleApiAvailability;
+import com.google.android.gms.common.api.GoogleApiClient;
 
 /**
  * Created by david_000 on 2/27/2016.
  */
-public class HomeActivity extends AppCompatActivity{
+public class HomeActivity extends AppCompatActivity {
 
     private BroadcastReceiver broadcastReceiver;
     private static final int PLAY_SERVICES_RESOLUTION_REQUEST = 9000;
     private static final String TAG = "HomeActivity";
+    /**
+     * ATTENTION: This was auto-generated to implement the App Indexing API.
+     * See https://g.co/AppIndexing/AndroidStudio for more information.
+     */
+    private GoogleApiClient client;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -39,7 +49,7 @@ public class HomeActivity extends AppCompatActivity{
 
         ApiManager apiManager = new ApiManager(this);
 
-        ImageButton find_button = (ImageButton)findViewById(R.id.findbutton);
+        ImageButton find_button = (ImageButton) findViewById(R.id.findbutton);
         find_button.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View view) {
@@ -48,12 +58,21 @@ public class HomeActivity extends AppCompatActivity{
             }
         });
 
+        ImageButton home_button = (ImageButton) findViewById(R.id.homebutton);
+        home_button.setOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View view) {
+                Intent settings = new Intent(HomeActivity.this, SettingsActivity.class);
+                HomeActivity.this.startActivity(settings);
+            }
+        });
+
         broadcastReceiver = new BroadcastReceiver() {
             @Override
             public void onReceive(Context context, Intent intent) {
                 SharedPreferences sharedPreferences = PreferenceManager.getDefaultSharedPreferences(context);
                 boolean sentToken = sharedPreferences.getBoolean(QuickstartPreferences.SENT_TOKEN_TO_SERVER, false);
-                if(sentToken) {
+                if (sentToken) {
                     System.out.println("Sent token");
                 } else {
                     System.out.println("error");
@@ -61,11 +80,14 @@ public class HomeActivity extends AppCompatActivity{
             }
         };
 
-        if(checkPlayServices()) {
+        if (checkPlayServices()) {
             // Start IntentService to register this application with GCM.
             Intent intent = new Intent(this, RegistrationIntentService.class);
             startService(intent);
         }
+        // ATTENTION: This was auto-generated to implement the App Indexing API.
+        // See https://g.co/AppIndexing/AndroidStudio for more information.
+        client = new GoogleApiClient.Builder(this).addApi(AppIndex.API).build();
     }
 
     @Override
@@ -100,5 +122,15 @@ public class HomeActivity extends AppCompatActivity{
             return false;
         }
         return true;
+    }
+
+    @Override
+    public void onStart() {
+        super.onStart();
+    }
+
+    @Override
+    public void onStop() {
+        super.onStop();
     }
 }
